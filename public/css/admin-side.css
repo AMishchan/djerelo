@@ -1,0 +1,23 @@
+.admin-input-field{
+    width: 70%;
+
+}
+input[name=main_img]{
+    margin: 30px 59px 30px 41%;
+    width: fit-content;
+
+}
+input[type=submit]{
+    margin-bottom:4em; 
+}
+#roomstable td img{
+    width:100%;
+}
+#roomstable td{
+    width: 20%;
+    text-align: -webkit-center;
+    text-align: center;
+}
+#addroom img{
+width:50%;
+}

@@ -1,0 +1,593 @@
+html.js .loader {
+  background: none repeat scroll 0 0 #ffffff;
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 9999; }
+  html.js .loader .loader_inner {
+    background-image: url("../img/preloader.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #fff;
+    height: 60px;
+    width: 60px;
+    margin-top: -30px;
+    margin-left: -30px;
+    left: 50%;
+    top: 50%;
+    position: absolute; }
+
+body {
+  font-family: "RobotoRegular", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  min-width: 320px;
+  position: relative;
+  line-height: 1.6;
+
+  overflow-x: hidden; }
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+  color: red; }
+
+body input:required:valid,
+body textarea:required:valid {
+  color: green; }
+.lang-btn{
+  border:none;
+  font-size: inherit;
+}
+.lang-container{
+  z-index: 2;
+  font-size: inherit;
+}
+.btn{
+  border-radius: 1px!important;
+}
+#myNavbar{
+  margin-top: 3em;
+}
+/*form-------------------------------bron*/
+.bottom-info{
+  text-align: center;
+
+}
+.bron-form .mid-h{
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-size: 120%;
+}
+.bron-form .col-sm-6 p{
+  font-size: 120%;
+}
+.bron-form{
+  width: 37%;
+  background-color: #eae4c4;
+  opacity: 0.8;
+  padding: 2em;
+
+}
+.span12{
+  margin-top: 1em;
+}
+#rooms-num, #adult-num, #child-num{
+
+  width: 4em;
+
+
+}
+
+.departure{
+
+}
+.form-bron .form-group>.row{
+  margin-top: 6em;
+}
+.bron-form>form>.form-group >.row{
+margin-bottom: 1em !important;
+}
+.bron-form>form>.form-group >.row:last-child{
+margin-bottom: 1em !important;
+}
+.bron-form button{
+  outline: none;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-size: 1.3em;
+  color: #ffffff;
+  background-color: #c4b157;
+
+}
+.bron-form .row{
+  text-align: center;
+  text-align: -webkit-center;
+}
+.bron-form label{
+  font-size: 115%;
+}
+/*------------------------------------------form-bron end*/
+.bron-form input {
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 1px 1px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+input:focus{
+  outline-color: #c4b157;
+}
+.form-control:focus{
+  outline-color: #c4b157;
+  border-color: #c4b157;
+}
+.bron-form .btn-default{
+  font-size: 1.7em;
+  outline: none;
+  color: white;
+  background-color: #c4b157;
+}
+.hidden {
+  display: none; }
+.logo{
+  z-index: 5;
+  position: absolute;
+  top: 0;
+  left: 4em;
+
+
+}
+.main-top-menu .navbar-nav {
+  float: left;
+  margin: 0;
+  font-size: 140%;
+  letter-spacing: 1px;
+  font-weight: 700;
+
+}
+.main-top-menu .navbar-nav li{
+  margin-right: 0.4em;
+  margin-left: 0.4em;
+}
+
+.main-top-menu a{
+  color:#1d1a1a !important;
+}
+.main-top-menu a:hover{
+  color:#686868 !important;
+}
+
+ .navbar-default {
+   background-color:white ;
+   border:none;
+}
+ .mid-h{
+   font-size: 125%;
+   text-align: center;
+   margin-top: 3em;
+   font-weight: 700;
+   margin-bottom: 3em;
+ }
+ .advantage >.col-sm-3{
+   text-align: -webkit-center;
+ }
+ .apt-catalog button{
+   outline: none;
+   padding-bottom: 10px;
+   padding-top: 10px;
+   border-radius: 1px!important;
+   width: 47%;
+   font-size: 1.3em;
+   color: #ffffff;
+   background-color: #c4b157;
+ }
+.apt-catalog button:hover{
+
+  outline: none;
+
+  color: #c4b157;
+ }
+.about-hotel .row{
+  margin-top: 3em;
+}
+.apt-catalog button:focus{
+   outline: none;
+  color: #c4b157;
+  background-color: white;
+ }
+.apt-catalog button:active{
+  outline: none;
+  color: white;
+  background-color: #c4b157;
+ }
+.btn-holder{
+  width: 70%;
+
+  margin: auto
+}
+.btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus {
+  outline: none;
+
+}
+.room-categories{
+
+  margin: 30px 20px 30px 20px;
+}
+.room-categories img{
+  margin: 20px 0 20px 0;
+}
+.room-categories:hover{
+  background-color: #eae4c4;
+
+}
+.room-class{
+  quotes: "\00ab" "\00bb";
+  margin-top: 11%;
+  font-size: 120%;
+  font-weight: 600;
+  margin-left: 8%;
+}
+.room-categories .btn-detailed{
+  margin-top: 10%;
+  margin-left: 8%;
+}
+
+@media (max-width: 768px) {
+.bron-form{
+  width: 40%;
+}
+  .form-control> option{
+
+  }
+  .form-control{
+    font-size: 70% !important;
+  }
+.tcal ,.tcalInput{
+  font-size: 50%;
+}
+
+}
+@media (max-width: 640px ) {
+.btn-detailed{
+margin-top: 1em !important;
+
+}
+.room-class{
+  margin-top: 1em !important;
+}
+}
+@media (max-width: 768px) {
+
+body{
+  font-size: 1em !important;
+}
+.btn button{
+  font-size: 1em;
+}
+.btn-holder{
+  width: 80%;
+}
+}
+@media (max-width: 640px) {
+  .bron-form{
+    width:45%;
+  }
+
+  }
+
+@media (max-width: 414px) {
+.bron-form{
+  width:70%;
+}
+  body{
+    font-size: 0.7em !important;
+  }
+.btn button{
+  font-size: 0.4em;
+}
+  .btn-holder{
+    width: 100%;
+  }
+}
+
+@media (max-width: 1200px){
+
+  .container1 {
+    width: 1300px;
+  }
+}
+
+/*owl-------------------------------*/
+.apt-card-slider .owl-nav{
+  top: 35%;
+}
+@media (min-width: 1200px){
+
+  .slider-top-container {
+    width: 1300px;
+  }
+}
+@media (max-width: 768px){
+
+  .slider-bottom-info p{
+    margin: 0!important;
+letter-spacing: 1px!important;
+  }
+  .slider-bottom-info{
+    margin-top: -6em !important;
+  }
+}
+.info-slider-container{
+
+  width: -webkit-fill-available;
+
+}
+.slider-bottom-info{
+  font-size: 120%;
+
+  opacity: 0.7;
+  background-color: #ffffff;
+letter-spacing: 2px;
+  position: relative;
+font-weight: 600;
+  margin-top: -8em;
+  z-index: 3;
+  padding: 1em 3em 1em 1em;
+}
+.review-slider .img-responsive{
+  margin-right: 3em;
+}
+.review-slider{
+  max-height: 9em;
+}
+.review-slider .owl-prev{
+
+  color:#333;
+}
+.owl-nav{
+  height: 1px !important;
+}
+.review-slider .owl-next{
+
+  color:#333;
+}
+.review-slider-wrap{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.review-slider .owl-nav{
+  width: 100%;
+  right: 0 !important;
+  font-size: 3em;
+}
+.review-slider .owl-prev .glyphicon{
+  right: 5%;
+}
+.review-slider .owl-next .glyphicon{
+  left: 100%;
+}
+/*-=--------------------------------end OWL*/
+/*advantage----------------------*/
+.advantage>.col-sm-3> p{
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+.advantage-info{
+  background-color: #f7f1c2;
+  padding: 2em 2em 2em 2em;
+}
+.advantage .col-sm-6{
+ padding:  0 4em 0 4em;
+}
+.advantage .col-sm-12{
+  margin-bottom: 2em;
+}
+/*----------------------------advantend*/
+/*--------------------------------apt-description*/
+.apt-description-btn{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  outline: none;
+  color: white;
+  background-color: #c4b157;
+}
+.apt-description-btn:hover{
+  outline: none;
+  color: #c4b157;
+
+}.apt-description-btn:active{
+   outline: none;
+   color: white;
+   background-color: #c4b157;
+
+}.apt-description-btn:focus{
+    outline: none;
+    color: #c4b157;
+    background-color: white;
+
+}
+ .apt-description ul li{
+   list-style-type: none;
+ }
+.apt-description h4:first-child{
+   margin-left: 1em;
+ }
+.apt-description .list-header{
+   margin-left: 1.3em;
+ }
+
+/*---------------------------------apt-desc end*/
+/*------------------------------apt-card*/
+
+.apt-range{
+  margin:  2em 0 2em 0;
+  font-size: 120%;
+  font-weight: 600;
+}
+.apt-area strong{
+  font-weight: 600;
+  font-size: 110%;
+
+}
+.apt-area{
+  margin: 2em 0 2em 0 ;
+}
+.apt-card-slider .owl-nav{
+  width:100%;
+  right: 0 !important;
+}
+/*------------------------------apt-card-end*/
+/*callback-form------------------------------*/
+.contact-header >h4{
+font-weight: 700;
+}
+
+.callback-accost >.col-sm-4{
+  text-align: center;
+}
+.callback-info{
+  background-color: #eae4c4;
+  padding: 2em;
+}
+.callback-info .mid-h{
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.callback-info>p>input{
+  width:100%;
+}
+.callback-info p{
+  width: 80%;
+  margin: 1em 0 1em 0;
+}
+.input-button{
+  font-weight: 700;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  outline: none;
+  color: white;
+  background-color: #c4b157;
+  border: none;
+  padding-top: 0.4em;
+  padding-bottom: 0.4em;
+  letter-spacing: 2px;
+}
+.input-button:hover{
+  outline: none;
+  background-color: #ffffff;
+  color: #c4b157;
+}
+.input-button:active{
+
+}
+/*-------------------------------------end callback-form*/
+footer{
+  height: 5em;
+}
+/*------------------------------------------------popup*/
+.modal-header .close {
+  margin-top: -2px;
+  background-color: #ffffff;
+  color: black;
+  width: fit-content;
+}
+.modal-content{
+border-radius: 2px;
+  padding: 2em;
+}
+.modal-body .col-sm-6 span{
+  font-size: 110%;
+  font-weight: 700;
+}
+.modal-header {
+  padding: 0 0.5em 0 0.5em;
+}
+.modal-body a{
+  text-decoration: none;
+  color:inherit;
+}
+.modal-body{
+  color: #333;
+}
+.modal-body a > img:hover{
+  outline:3px solid #c4b157;
+}
+.modal-body a > span:hover{
+  border-bottom:3px solid #c4b157;
+  color: #c4b157;
+}
+.modal-body .col-sm-6{
+  margin-bottom: 1em;
+}
+/*------------------------------------------------popupEND*/
+/*rooms-category-------------------------------------------*/
+.rooms-cat-top-img{
+  width:100%;
+}
+.cat-top-img-desc{
+  height: 5em;
+  background-color:  rgba(214, 222, 184, 0.57);
+  margin-top: -5em;
+  z-index: 41;
+  width: 100%;
+  position: relative;
+  display: block;
+}
+
+.cat-top-img-desc span{
+  font-size: 2.5em;
+  margin-left: 3em;
+  line-height: 2em;
+  font-weight: 700;
+  color: #1d1919;
+}
+.rooms-cat-num{
+  margin-top: 3%;
+  font-size: 1.6em;
+  font-weight: 600;
+  margin-left: 37%;
+}
+.rooms-cat-num-desc-text {
+  padding: 0 2em 0 2em;
+}
+.rooms-cat-slider .owl-nav{
+  top: 31%;
+  width: 123%;
+  right: -11%;
+}
+.btn-rooms-cat{
+  margin: 1em 1em 1em 6em;
+  font-weight: 700;
+  font-size: 135%;
+  float: right;
+  color: #ffffff;
+  background-color: #c4b157;
+}
+.btn-rooms-cat:hover{
+  color: #c4b157;
+}
+.btn-rooms-cat:active{
+background-color: #c4b157;
+color: #ffffff;
+}
+/*----------------------------------------------------------rooms-category END-------------------------------------------*/
