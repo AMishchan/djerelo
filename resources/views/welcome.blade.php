@@ -1,6 +1,6 @@
 @extends('layouts.front')
 @section('content')
-<div class="logo col-lg-2 col-md-3 col-sm-4 col-xs-4">
+<div class="logo col-sm-2 col-xs-2">
     <img  class="img-responsive" src="img/logo-jerelo.png" alt="logo">
 </div>
 
@@ -34,7 +34,7 @@
 <div class="container about-hotel">
     <h4 class="mid-h">ПРО ГОТЕЛЬ</h4>
     <div>
-        <img class="img-responsive" src="style/img/sliderimg/about-hotel.png" alt="hotel-about">
+        <img class="img-responsive" src="style/img/sliderimg/about-hotel.png" alt="">
     </div>
     <div class="row">
         <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">

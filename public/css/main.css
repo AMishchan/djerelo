@@ -8,19 +8,19 @@ html.js .loader {
   top: 0;
   width: 100%;
   z-index: 9999; }
-  html.js .loader .loader_inner {
-    background-image: url("../img/preloader.gif");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-color: #fff;
-    height: 60px;
-    width: 60px;
-    margin-top: -30px;
-    margin-left: -30px;
-    left: 50%;
-    top: 50%;
-    position: absolute; }
+html.js .loader .loader_inner {
+  background-image: url("../img/preloader.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #fff;
+  height: 60px;
+  width: 60px;
+  margin-top: -30px;
+  margin-left: -30px;
+  left: 50%;
+  top: 50%;
+  position: absolute; }
 
 body {
   font-family: "RobotoRegular", sans-serif;
@@ -107,10 +107,10 @@ body textarea:required:valid {
   margin-top: 6em;
 }
 .bron-form>form>.form-group >.row{
-margin-bottom: 1em !important;
+  margin-bottom: 1em !important;
 }
 .bron-form>form>.form-group >.row:last-child{
-margin-bottom: 1em !important;
+  margin-bottom: 1em !important;
 }
 .bron-form button{
   outline: none;
@@ -192,49 +192,49 @@ input:focus{
   color:#686868 !important;
 }
 
- .navbar-default {
-   background-color:white ;
-   border:none;
+.navbar-default {
+  background-color:white ;
+  border:none;
 }
- .mid-h{
-   font-size: 125%;
-   text-align: center;
-   margin-top: 3em;
-   font-weight: 700;
-   margin-bottom: 3em;
- }
- .advantage >.col-sm-3{
-   text-align: -webkit-center;
- }
- .apt-catalog button{
-   outline: none;
-   padding-bottom: 10px;
-   padding-top: 10px;
-   border-radius: 1px!important;
-   width: 47%;
-   font-size: 1.3em;
-   color: #ffffff;
-   background-color: #c4b157;
- }
+.mid-h{
+  font-size: 125%;
+  text-align: center;
+  margin-top: 3em;
+  font-weight: 700;
+  margin-bottom: 3em;
+}
+.advantage >.col-sm-3{
+  text-align: -webkit-center;
+}
+.apt-catalog button{
+  outline: none;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-radius: 1px!important;
+  width: 47%;
+  font-size: 1.3em;
+  color: #ffffff;
+  background-color: #c4b157;
+}
 .apt-catalog button:hover{
 
   outline: none;
 
   color: #c4b157;
- }
+}
 .about-hotel .row{
   margin-top: 3em;
 }
 .apt-catalog button:focus{
-   outline: none;
+  outline: none;
   color: #c4b157;
   background-color: white;
- }
+}
 .apt-catalog button:active{
   outline: none;
   color: white;
   background-color: #c4b157;
- }
+}
 .btn-holder{
   width: 70%;
 
@@ -268,58 +268,58 @@ input:focus{
 }
 
 @media (max-width: 768px) {
-.bron-form{
-  width: 40%;
-}
+  .bron-form{
+    width: 40%;
+  }
   .form-control> option{
 
   }
   .form-control{
     font-size: 70% !important;
   }
-.tcal ,.tcalInput{
-  font-size: 50%;
-}
+  .tcal ,.tcalInput{
+    font-size: 50%;
+  }
 
 }
 @media (max-width: 640px ) {
-.btn-detailed{
-margin-top: 1em !important;
+  .btn-detailed{
+    margin-top: 1em !important;
 
-}
-.room-class{
-  margin-top: 1em !important;
-}
+  }
+  .room-class{
+    margin-top: 1em !important;
+  }
 }
 @media (max-width: 768px) {
 
-body{
-  font-size: 1em !important;
-}
-.btn button{
-  font-size: 1em;
-}
-.btn-holder{
-  width: 80%;
-}
+  body{
+    font-size: 1em !important;
+  }
+  .btn button{
+    font-size: 1em;
+  }
+  .btn-holder{
+    width: 80%;
+  }
 }
 @media (max-width: 640px) {
   .bron-form{
     width:45%;
   }
 
-  }
+}
 
 @media (max-width: 414px) {
-.bron-form{
-  width:70%;
-}
+  .bron-form{
+    width:70%;
+  }
   body{
     font-size: 0.7em !important;
   }
-.btn button{
-  font-size: 0.4em;
-}
+  .btn button{
+    font-size: 0.4em;
+  }
   .btn-holder{
     width: 100%;
   }
@@ -353,9 +353,9 @@ body{
 
   opacity: 0.7;
   background-color: #ffffff;
-letter-spacing: 2px;
+  letter-spacing: 2px;
   position: relative;
-font-weight: 600;
+  font-weight: 600;
   margin-top: -8em;
   z-index: 3;
   padding: 1em 3em 1em 1em;
@@ -404,7 +404,7 @@ font-weight: 600;
   padding: 2em 2em 2em 2em;
 }
 .advantage .col-sm-6{
- padding:  0 4em 0 4em;
+  padding:  0 4em 0 4em;
 }
 .advantage .col-sm-12{
   margin-bottom: 2em;
@@ -428,21 +428,21 @@ font-weight: 600;
    color: white;
    background-color: #c4b157;
 
-}.apt-description-btn:focus{
+ }.apt-description-btn:focus{
     outline: none;
     color: #c4b157;
     background-color: white;
 
+  }
+.apt-description ul li{
+  list-style-type: none;
 }
- .apt-description ul li{
-   list-style-type: none;
- }
 .apt-description h4:first-child{
-   margin-left: 1em;
- }
+  margin-left: 1em;
+}
 .apt-description .list-header{
-   margin-left: 1.3em;
- }
+  margin-left: 1.3em;
+}
 
 /*---------------------------------apt-desc end*/
 /*------------------------------apt-card*/
@@ -467,7 +467,7 @@ font-weight: 600;
 /*------------------------------apt-card-end*/
 /*callback-form------------------------------*/
 .contact-header >h4{
-font-weight: 700;
+  font-weight: 700;
 }
 
 .callback-accost >.col-sm-4{
@@ -521,7 +521,7 @@ footer{
   width: fit-content;
 }
 .modal-content{
-border-radius: 2px;
+  border-radius: 2px;
   padding: 2em;
 }
 .modal-body .col-sm-6 span{
@@ -596,7 +596,7 @@ border-radius: 2px;
   color: #c4b157;
 }
 .btn-rooms-cat:active{
-background-color: #c4b157;
-color: #ffffff;
+  background-color: #c4b157;
+  color: #ffffff;
 }
 /*----------------------------------------------------------rooms-category END-------------------------------------------*/

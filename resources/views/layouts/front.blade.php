@@ -14,10 +14,9 @@
         <link href="{{ asset('libs/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
         <link href="{{ asset('libs/bootstrap/css/bootstrap.css') }}" rel="stylesheet">
         <link href="{{ asset('libs/bootstrap/js/bootstrap.js') }}" rel="stylesheet">
-       
+        <link href="{{ asset('css/component.css') }}" rel="stylesheet">
 
 	    <link href="{{ asset('css/fonts.css') }}" rel="stylesheet">
-	    <link href="{{ asset('css/component.css') }}" rel="stylesheet">
         <link href="{{ asset('css/main.css') }}" rel="stylesheet">
         <link href="{{ asset('css/media.css') }}" rel="stylesheet">
         <link href="{{ asset('libs/owlcarousel/assets/owl.carousel.min.css') }}" rel="stylesheet">
@@ -29,7 +28,6 @@
         <link href="{{ asset('calendear/tcal.css') }}" rel="stylesheet">
         <script src="{{asset('calendear/tcal.js') }}"></script>
         <script src="{{asset('calendear/modernizr.custom.js') }}"></script>
-
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     
 	
@@ -63,7 +61,7 @@
                         </button>
 
                     </div>
-                    <div class="collapse navbar-collapse cl-effect-7" id="myNavbar" >
+                    <div class="collapse navbar-collapse cl-effect-7" id="myNavbar">
                         <ul class="nav navbar-nav">
 
                             <li><a href="/">Головна</a></li>

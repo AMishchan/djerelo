@@ -26,6 +26,7 @@ Route::match(['get', 'post'], 'admin/editcategory', ['uses' => 'Admin\CategoryCo
 Route::post('contacts/sendmessage', 'FrontContactsController@sendMessage')->name('sendmessage');
 
 Route::get('admin/contacts', 'Admin\ContactsController@index')->name('contacts.index');
+Route::get('roomdetails', 'RoomController@roomDetails')->name('roomdetails');
 
 Route::match(['get', 'post'], 'admin/contacts/add', ['uses' => 'Admin\ContactsController@add', 'as' => 'contacts/add']);
 Route::match(['get', 'post'], 'admin/contacts/edit', ['uses' => 'Admin\ContactsController@edit', 'as' => 'contacts/edit']);
