@@ -1,6 +1,6 @@
 @extends('layouts.front')
 @section('content')
-<div class="logo col-sm-2 col-xs-2">
+<div class="logo col-lg-2 col-md-3 col-sm-4 col-xs-4">
     <img  class="img-responsive" src="img/logo-jerelo.png" alt="logo">
 </div>
 
@@ -34,10 +34,10 @@
 <div class="container about-hotel">
     <h4 class="mid-h">ПРО ГОТЕЛЬ</h4>
     <div>
-        <img class="img-responsive" src="style/img/sliderimg/about-hotel.png" alt="">
+        <img class="img-responsive" src="style/img/sliderimg/about-hotel.png" alt="hotel-about">
     </div>
     <div class="row">
-        <div class="col-sm-6">
+        <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
             <p class="advantage-info"> 
                 Observatorna Street, where the hotel complex "Dzherelo" is located, was formed in the
                 middle of 19 century due to construction of Kyiv University observatory in 1841- 1845s.
@@ -71,7 +71,7 @@
 
             </p>
         </div>
-        <div class="col-sm-6">
+        <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
             <p class="advantage-info">
                 Вулиця Обсерваторна, на якій знаходиться готельний комплекс «Джерела",
                 утворилася в середині ХІХст. у зв'язку зі спорудженн.ям тут у 1841 -

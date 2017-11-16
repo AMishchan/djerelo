@@ -12,7 +12,51 @@
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
+	body{
+		font-size: 170% !important;
+	}
+	.advantage .col-sm-6 {
+		padding: 0 1em 0 1em !important;
+	}
+	.owl-nav{
+		display: none;
+	}
+	.slider-bottom-info{
+		margin-top: 0;
+		font-size: 40%;
+		letter-spacing: inherit;
+		line-height: 10px;
+		text-align: -webkit-center;
+		text-align: center;
+	}
+	.mid-h{
+		margin-top: 0.5em;
 
+		 margin-bottom: 0.5em;
+	}
+	.about-hotel .row {
+		margin-top: 1em;
+	}
+	.advantage-info {
+
+		padding: 1em 0.5em 1em 0.5em;
+	}
+	.logo{
+		display: none;
+	}
+	.navbar-collapse {
+		padding-right: 2px;
+		padding-left: 2px;
+		text-align: center;
+		text-align: -webkit-center;
+		font-size: 65%;
+	}
+	.navbar-default .navbar-nav > li > a:focus {
+		background-color: #d6d0d0;
+	}
+	#myNavbar ul li a:before{
+		display:none;
+	}
 	/*Disable Animation on Mobile Devices*/
 	.animated {
 		/*CSS transitions*/

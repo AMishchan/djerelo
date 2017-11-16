@@ -51,7 +51,7 @@ body textarea:required:valid {
   border-radius: 1px!important;
 }
 #myNavbar{
-  margin-top: 3em;
+  margin-top: 2em;
 }
 /*form-------------------------------bron*/
 .bottom-info{
@@ -81,6 +81,23 @@ body textarea:required:valid {
   width: 4em;
 
 
+}
+.advantage img {
+  -moz-transition: all 1s cubic-bezier(0.42, 0, 0.29, 3.08);;
+  -o-transition: all 1s cubic-bezier(0.42, 0, 0.29, 3.08);;
+  -webkit-transition: all 1s cubic-bezier(0.42, 0, 0.29, 3.08);;
+}
+
+.advantage img:hover{
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+#myNavbar li a:after, #myNavbar li a::before{
+  opacity: 0.2;
+}
+#myNavbar li a::before{
+  opacity: 0.2;
 }
 
 .departure{
@@ -155,9 +172,10 @@ input:focus{
 
 }
 .main-top-menu .navbar-nav {
-  float: left;
-  margin: 0;
-  font-size: 140%;
+
+
+  margin: auto;
+
   letter-spacing: 1px;
   font-weight: 700;
 
@@ -324,16 +342,7 @@ body{
     width: 1300px;
   }
 }
-@media (max-width: 768px){
 
-  .slider-bottom-info p{
-    margin: 0!important;
-letter-spacing: 1px!important;
-  }
-  .slider-bottom-info{
-    margin-top: -6em !important;
-  }
-}
 .info-slider-container{
 
   width: -webkit-fill-available;
