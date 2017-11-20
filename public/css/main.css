@@ -34,21 +34,42 @@ body {
 
 body input:focus:required:invalid,
 body textarea:focus:required:invalid {
-  color: red; }
+  color: red;
+}
 
 body input:required:valid,
 body textarea:required:valid {
-  color: green; }
+  color: #333;
+}
 .lang-btn{
   border:none;
   font-size: inherit;
 }
+.form-holder{
+  width: fit-content;
+  margin: auto;
+  padding: 10px;
+  background-color: rgba(220, 207, 147, 0.64);
+}
+
 .lang-container{
   z-index: 2;
   font-size: inherit;
 }
+.lang-container .dropdown-menu > li > a:hover {
+  background-color: #dccf93;
+}
+.lang-container .dropdown-menu > li {
+text-align: center;
+text-align: -webkit-center;
+text-align: -moz-center;
+}
 .btn{
   border-radius: 1px!important;
+}
+.lang-container .btn-default:hover, .lang-container .btn-default:active{
+  color: #333;
+  background-color: #eee8d1;
 }
 #myNavbar{
   margin-top: 2em;

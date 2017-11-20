@@ -1,4 +1,5 @@
 @extends('layouts.front')
+
 @section('content')
 @if (session('alert'))
     <div class="alert alert-success">
@@ -11,7 +12,6 @@
         <img class="img-responsive" src="" alt="">
     </div>
 
-    <div class="breadcrumb">11111111/2222222222</div>
  @foreach($categories as $category)
     <div class="row room-categories">
    
@@ -36,7 +36,7 @@
     </div>
     @endforeach
 
-   
+
 
 
     <div class="row bron-row">

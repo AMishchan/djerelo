@@ -32,14 +32,17 @@
         </div>
 
     </div>
-    <form id="feetback" align="center" method="post" action="{{ route('sendfeedback') }}">
-        {{csrf_field()}}
-        <input type="text" name="first_name" value="{{ old('first_name') }}" placeholder="Имя" required>
-        <br>
-        <textarea name="feetback" form="feetback" placeholder="Отзыв" required></textarea>
-        <br>
-        <input type="submit" name="submit" value="Отправить">
+    <div class="container">
+        <div class="form-holder">
+            <form id="feetback" align="center" method="post" action="{{ route('sendfeedback') }}">
+                {{csrf_field()}}
+                <input type="text" name="first_name" value="{{ old('first_name') }}" placeholder="Имя" required>
+                <br>
+                <textarea name="feetback" form="feetback" placeholder="Отзыв" required></textarea>
+                <br>
+                <input type="submit" name="submit" value="Отправить">
 
-    </form>
-
+            </form>
+        </div>
+    </div>
 @endsection
