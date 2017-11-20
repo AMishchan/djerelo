@@ -12,20 +12,25 @@
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
+	.main-top-menu .navbar-nav li {
+		 margin-right: 0;
+		 margin-left: 0;
+	}
 	body{
 		font-size: 170% !important;
 	}
 	.advantage .col-sm-6 {
 		padding: 0 1em 0 1em !important;
 	}
+
 	.owl-nav{
 		display: none;
 	}
 	.slider-bottom-info{
 		margin-top: 0;
-		font-size: 40%;
+
 		letter-spacing: inherit;
-		line-height: 10px;
+		line-height: 16px;
 		text-align: -webkit-center;
 		text-align: center;
 	}
@@ -41,9 +46,7 @@
 
 		padding: 1em 0.5em 1em 0.5em;
 	}
-	.logo{
-		display: none;
-	}
+
 	.navbar-collapse {
 		padding-right: 2px;
 		padding-left: 2px;
@@ -79,11 +82,24 @@
 		animation: none !important;
 	}
 
+	.btn, .btn-default, .btn-detailed{
+		font-size: medium !important;
+	}
+	.bron-row{
+		padding-left: 5%;
+		padding-right: 5%;
+	}
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
+	.slider-bottom-info{
+		margin-top: 0;
+		font-size: 40%;
 
+		line-height: 10px;
+
+	}
 }
 
 /* Custom, iPhone Retina */

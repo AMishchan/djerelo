@@ -68,6 +68,7 @@ body textarea:required:valid {
 }
 .bron-form{
   width: 37%;
+  margin: auto;
   background-color: #eae4c4;
   opacity: 0.8;
   padding: 2em;
@@ -269,7 +270,7 @@ input:focus{
 
 @media (max-width: 768px) {
   .bron-form{
-    width: 40%;
+    width: 100%;
   }
   .form-control> option{
 
@@ -305,14 +306,14 @@ input:focus{
 }
 @media (max-width: 640px) {
   .bron-form{
-    width:45%;
+    width:100%;
   }
 
 }
 
 @media (max-width: 414px) {
   .bron-form{
-    width:70%;
+    width:100%;
   }
   body{
     font-size: 0.7em !important;
@@ -446,7 +447,10 @@ input:focus{
 
 /*---------------------------------apt-desc end*/
 /*------------------------------apt-card*/
-
+.apt-card-row{
+  text-align: center;
+  text-align: -webkit-center;
+}
 .apt-range{
   margin:  2em 0 2em 0;
   font-size: 120%;

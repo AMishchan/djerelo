@@ -48,7 +48,7 @@
 
             </ul>
         </div>
-        <div class="col-sm-9 col-sm-offset-2 main-top-menu">
+        <div class="col-lg-9 col-lg-offset-2 col-md-10 col-md-offset-2 main-top-menu">
 
 
             <nav class="navbar navbar-default">

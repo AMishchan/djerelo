@@ -39,7 +39,7 @@
    
 
 
-    <div class="container">
+    <div class="row bron-row">
 
         <div class="bron-form">
             <h4  class="mid-h">Онлайн-бронювання номеру</h4>

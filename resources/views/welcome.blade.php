@@ -1,6 +1,6 @@
 @extends('layouts.front')
 @section('content')
-<div class="logo col-sm-2 col-xs-2">
+<div class="logo col-sm-2 col-xs-3 col-lg-2 col-md-2">
     <img  class="img-responsive" src="img/logo-jerelo.png" alt="logo">
 </div>
 
