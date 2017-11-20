@@ -80,8 +80,10 @@ body textarea:required:valid {
 #rooms-num, #adult-num, #child-num{
 
   width: 4em;
-
-
+}
+.slider-top-container{
+  margin-right: auto;
+  margin-left: auto;
 }
 .advantage img {
   -moz-transition: all 1s cubic-bezier(0.42, 0, 0.29, 3.08);;
@@ -99,6 +101,12 @@ body textarea:required:valid {
 }
 #myNavbar li a::before{
   opacity: 0.2;
+}
+.navbar-default .navbar-toggle{
+  background: #dccf93;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+  background: #dacba0;
 }
 
 .departure{
@@ -196,6 +204,7 @@ input:focus{
 .navbar-default {
   background-color:white ;
   border:none;
+  height: auto;
 }
 .mid-h{
   font-size: 125%;
@@ -212,7 +221,7 @@ input:focus{
   padding-bottom: 10px;
   padding-top: 10px;
   border-radius: 1px!important;
-  width: 47%;
+  width: 9em;
   font-size: 1.3em;
   color: #ffffff;
   background-color: #c4b157;
@@ -337,12 +346,7 @@ input:focus{
 .apt-card-slider .owl-nav{
   top: 35%;
 }
-@media (min-width: 1200px){
 
-  .slider-top-container {
-    width: 1300px;
-  }
-}
 
 .info-slider-container{
 
@@ -412,13 +416,18 @@ input:focus{
 }
 /*----------------------------advantend*/
 /*--------------------------------apt-description*/
+.list-f{
+  border-bottom: 2px solid rgba(196, 177, 87, 0.51);
+}
 .apt-description-btn{
   margin-left: auto;
   margin-right: auto;
   display: block;
   outline: none;
+  font-size: 1.6em;
   color: white;
   background-color: #c4b157;
+  margin-top: 2em;
 }
 .apt-description-btn:hover{
   outline: none;
@@ -513,6 +522,17 @@ input:focus{
 .input-button:active{
 
 }
+.callback-form{
+  text-align: -webkit-center;
+  text-align: -moz-center;
+}
+.callback-form .input-button{
+  width:10em;
+}
+.callback-accost input{
+  width: 100%;
+}
+
 /*-------------------------------------end callback-form*/
 footer{
   height: 5em;
@@ -583,7 +603,7 @@ footer{
 .rooms-cat-num-desc-text {
   padding: 0 2em 0 2em;
 }
-.rooms-cat-slider .owl-nav{
+.rooms-cat-slider .owl-nav {
   top: 31%;
   width: 123%;
   right: -11%;
@@ -604,3 +624,41 @@ footer{
   color: #ffffff;
 }
 /*----------------------------------------------------------rooms-category END-------------------------------------------*/
+/*----------------------------------------------------feedback--------------------------------------------------------------*/
+#feetback{
+  margin-top: 3em;
+}
+#feetback input, textarea{
+  margin: 2em;
+  width: 20em;
+
+}
+#feetback textarea:focus{
+  outline-color: #c4b157;
+}
+#feetback [type=submit]{
+  border: none;
+  width: 8em;
+  background-color: #c4b157;
+  color: #ffffff;
+  font-size: 1.4em;
+  margin-top: 0;
+  outline: none;
+  padding: 3px;
+  border: 1px solid transparent;
+}
+#feetback [type=submit]:hover{
+  background-color: #e6e6e6;
+  border-color: #adadad;
+  color: #c4b157;
+}
+#feetback [type=submit]:active{
+  background-color: #c4b157;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+  color: #ffffff;
+}
+
+/*---------------------------------------------------------------end feedback---------------------------------------------------------------*/
+
+

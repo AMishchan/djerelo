@@ -12,6 +12,20 @@
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
+	.cat-top-img-desc span {
+		font-size: 1.5em;
+		margin-left: 1em;
+	}
+	.rooms-cat-num {
+		font-size: 1em;
+	}
+	.cat-top-img-desc {
+	height: 3em;
+	margin-top: -3em;
+}
+	#myNavbar li a:after, #myNavbar li a::before {
+		display: none;
+	}
 	.main-top-menu .navbar-nav li {
 		 margin-right: 0;
 		 margin-left: 0;
@@ -36,8 +50,8 @@
 	}
 	.mid-h{
 		margin-top: 0.5em;
-
-		margin-bottom: 0.5em;
+		font-size: 110%;
+		margin-bottom: 1em;
 	}
 	.about-hotel .row {
 		margin-top: 1em;
