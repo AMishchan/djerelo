@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Laravel'),
+    'name' => env('APP_NAME', 'Джерело'),
 
     /*
     |--------------------------------------------------------------------------
@@ -171,11 +171,11 @@ return [
         /*
          * Application Service Providers...
          */
-        App\Providers\AppServiceProvider::class,
-        App\Providers\AuthServiceProvider::class,
-        // App\Providers\BroadcastServiceProvider::class,
-        App\Providers\EventServiceProvider::class,
-        App\Providers\RouteServiceProvider::class,
+        Джерело\Providers\AppServiceProvider::class,
+        Джерело\Providers\AuthServiceProvider::class,
+        // Джерело\Providers\BroadcastServiceProvider::class,
+        Джерело\Providers\EventServiceProvider::class,
+        Джерело\Providers\RouteServiceProvider::class,
 
     ],
 

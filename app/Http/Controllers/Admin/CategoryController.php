@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Http\Controllers\Admin;
+namespace Джерело\Http\Controllers\Admin;
 
 use Illuminate\Http\Request;
-use App\Http\Controllers\Controller;
-use App\Categories;
+use Джерело\Http\Controllers\Controller;
+use Джерело\Categories;
 class CategoryController extends Controller
 {
    public function index()

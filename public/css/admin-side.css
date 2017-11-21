@@ -1,23 +1,208 @@
-.admin-input-field{
+.admin-input-field {
     width: 70%;
 
 }
-input[name=main_img]{
+.navbar-brand{
+    font-weight: 700;
+}
+input[name=main_img] {
     margin: 30px 59px 30px 41%;
     width: fit-content;
 
 }
-input[type=submit]{
-    margin-bottom:4em; 
+
+input[type=submit] {
+    margin-bottom: 3em;
 }
-#roomstable td img{
-    width:100%;
+
+#roomstable td img {
+    width: 100%;
 }
-#roomstable td{
+
+#roomstable td {
     width: 20%;
     text-align: -webkit-center;
     text-align: center;
 }
-#addroom img{
-width:50%;
+
+#addroom img {
+    width: 50%;
 }
+select{
+    outline: 2px solid rgba(212, 204, 127, 0.64);
+    padding: 3px;
+    font-size: 120%;
+
+}
+.btn {
+    font-weight: 600;
+    background-color: #d6dab4;
+    color: #333;
+    margin: 1em;
+    box-shadow: inset 0 -4px 6px rgba(0, 0, 0, .125);
+    -moz-box-shadow: inset 0 -4px 6px rgba(0, 0, 0, .125);
+}
+
+.btn:hover {
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+}
+
+.btn:active, .btn:focus {
+    outline: 2px solid rgba(212, 204, 127, 0.64);;
+}
+
+.btn::-moz-focus-inner {
+    border: 2px solid rgba(212, 204, 127, 0.64);
+}
+input:active, input:focus {
+    outline: 2px solid rgba(212, 204, 127, 0.64);;
+}
+
+input::-moz-focus-inner {
+    border:2px solid rgba(212, 204, 127, 0.64);;
+}
+textarea:active, textarea:focus {
+    outline: 2px solid rgba(212, 204, 127, 0.64);;
+}
+
+textarea::-moz-focus-inner {
+    border:2px solid rgba(212, 204, 127, 0.64);;
+}
+select:active, select:focus {
+    outline: 2px solid rgba(212, 204, 127, 0.64);;
+}
+
+select::-moz-focus-inner {
+    border:2px solid rgba(212, 204, 127, 0.64);;
+}
+/*===================================showroom*/
+.mid-h {
+    text-align: center;
+    text-align: -moz-center;
+    text-align: -webkit-center;
+}
+
+.show-room-btn {
+    margin: 1em;
+    font-weight: 700;
+}
+
+.show-room table {
+    font-size: 120%;
+}
+
+.show-room table td {
+    padding: 0.5em;
+    border: none;
+}
+
+.show-room table {
+    border: none;
+}
+
+.show-room tr {
+    border-bottom: 2px solid #b4c557;
+}
+
+/*=======================end showroom=============*/
+/*=======================room images=============*/
+.room-images img {
+    width: 85%;
+    margin: 1em;
+    float: left;
+}
+
+.imgs-row input {
+    margin-top: 32%;
+    margin-left: 4%;
+    outline: none;
+    border: none;
+}
+
+.room-images .img-loader input[type=file] {
+    display: inline-block;
+}
+
+.room-images .img-loader .btn {
+    margin: 0 1em 0 1em;
+}
+
+.img-loader {
+    margin-bottom: 1em;
+    border-bottom: 2px solid #b4c557;
+    padding-bottom: 1em;
+}
+
+.room-images .delete-btn {
+    border-top: 2px solid #b4c557;
+    margin: 1em;
+}
+
+/*=======================end room images=============*/
+
+/*=======================contacts=============*/
+.show-contacts table {
+    border: 1px solid #bac55f;
+    width: 100%;
+}
+
+.show-contacts tr {
+    border: 1px solid #bac55f;
+}
+
+.show-contacts td {
+    border: 1px solid #bac55f;
+}
+.show-contacts h1{
+    border-bottom: 2px solid #b4c557;
+    padding: 1em;
+}
+.show-contacts table td {
+    padding: 3px;
+}
+/*=======================end contacts=============*/
+/*=======================editcontacts=============*/
+.edit-contact form{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    text-align: -moz-center;
+    text-align: -webkit-center;
+}
+.edit-contact form input{
+    width: 100%;
+    margin: auto;
+
+}
+.edit-contact form p {
+    margin-bottom: 1em;
+    margin-top: 1em;
+    font-size: 120%;
+    border-bottom: 1px solid #b4c557;
+}
+.edit-contact form input:last-child{
+    margin-top: 2em;
+    width: auto;
+}
+/*=======================end edit contacts=============*/
+/*=======================add contacts=============*/
+.add-contact form, .room-edit form{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    text-align: -moz-center;
+    text-align: -webkit-center;
+}
+.add-contact input, .room-edit textarea{
+    width:100%;
+}
+.add-contact form input:last-child{
+    width: auto;
+}
+.add-contact form p {
+    margin-bottom: 1em;
+    margin-top: 1em;
+    font-size: 120%;
+    border-bottom: 1px solid #b4c557;
+}
+/*=======================end add contacts=============*/

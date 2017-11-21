@@ -1,15 +1,17 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="container">
-        <p>Отображение комнат</p>
-        <a href="{{route('admin/rooms/add')}}">Добавить комнату </a>
+    <div class="container show-room">
+        <h3 class="mid-h">Отображение комнат</h3>
+
+        <a class="btn show-room-btn" href="{{route('admin/rooms/add')}}">Добавить комнату </a>
+
         <table border="1" id="roomstable">
             <tr>
                 <td>Изображение</td>
                 <td>№ комнаты</td>
                 <td>Категория</td>
-                <td></td>
+                <td>Действия</td>
             </tr>
             @foreach($rooms as $room)
                 <tr>
@@ -19,9 +21,9 @@
                     <td>{{$room['room_number']}}</td>
                     <td>{{$room['name_ru']}}</td>
                     <td>
-                        <a href="{{route('edit', ['id'=>$room['ID']])}}">Редактировать</a>
+                        <a class="btn show-room-btn" href="{{route('edit', ['id'=>$room['ID']])}}">Редактировать</a>
                         <br>
-                        <a href="{{route('admin/rooms/images', ['id'=>$room['ID']])}}">Изображения комнаты</a>
+                        <a class="btn show-room-btn" href="{{route('admin/rooms/images', ['id'=>$room['ID']])}}">Изображения комнаты</a>
                     </td>
                 </tr>
             @endforeach

@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace Джерело\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Feetback;
+use Джерело\Feetback;
 class FeettbackController extends Controller
 {
     public function index()

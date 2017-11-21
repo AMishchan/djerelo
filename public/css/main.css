@@ -230,6 +230,8 @@ input:focus{
 .mid-h{
   font-size: 125%;
   text-align: center;
+  text-align: -webkit-center;
+  text-align: -moz-center;
   margin-top: 3em;
   font-weight: 700;
   margin-bottom: 3em;
@@ -366,6 +368,9 @@ input:focus{
 /*owl-------------------------------*/
 .apt-card-slider .owl-nav{
   top: 35%;
+}
+.apt-card-slider .owl-prev{
+  float: left;
 }
 
 
@@ -681,5 +686,4 @@ footer{
 }
 
 /*---------------------------------------------------------------end feedback---------------------------------------------------------------*/
-
 

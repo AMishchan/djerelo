@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Http\Controllers\Admin;
+namespace Джерело\Http\Controllers\Admin;
 
 use Illuminate\Http\Request;
-use App\Http\Controllers\Controller;
-use App\Contacts;
+use Джерело\Http\Controllers\Controller;
+use Джерело\Contacts;
 class ContactsController extends Controller
 {
     public function index ()

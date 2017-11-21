@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace Джерело\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Contacts;
+use Джерело\Contacts;
 //use Illuminate\Mail\Mailer;
 use Mail;
 class FrontContactsController extends Controller

@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace Джерело\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Categories;
-use App\Bookings;
+use Джерело\Categories;
+use Джерело\Bookings;
 class CatalogController extends Controller
 {
    public function index()

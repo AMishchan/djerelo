@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace Джерело;
 
 use Illuminate\Database\Eloquent\Model;
 
