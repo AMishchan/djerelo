@@ -3,9 +3,12 @@
 @section('content')
     <div class="container room-images">
         <div class="img-loader">
-            <form method="post" enctype="multipart/form-data">
+            <button class="btn" name="image" onclick="document.getElementById('fileUpload').click()">Завантажити фото</button>
+            <form method="post" enctype="multipart/form-data" align="center">
                 {{csrf_field()}}
-                <input type="file" name="image" size="10" multiple>
+
+                <input type="file" id="fileUpload" name="image" style="display:none" multiple/>
+
                 <input class="btn" type="hidden" name="room_id" value="{{$_GET['id']}}">
                 <input class="btn" type="submit" name="addimage" value="Сохранить">
             </form>
@@ -22,9 +25,10 @@
                 </div>
 
             @endforeach
-            <div class="row delete-btn">
+            <div class="row">
                 <input class="btn" type="submit" name="delete" value="Удалить">
             </div>
         </form>
+
     </div>
 @endsection
