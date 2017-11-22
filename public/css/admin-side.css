@@ -130,7 +130,10 @@ select::-moz-focus-inner {
 .room-images .img-loader input[type=file] {
     display: inline-block;
 }
-
+.room-images tr{
+    margin-bottom: 1em;
+    border-bottom: 2px solid #b4c557
+}
 .room-images .img-loader .btn {
     margin: 0 1em 0 1em;
 }

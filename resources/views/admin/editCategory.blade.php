@@ -16,6 +16,7 @@
             <p>Для изменения фото, выберите новое изображение</p>
             <input type="file" name="img" size="10" multiple>
 
+
             <input class="btn" type="submit" value="Сохранить">
         @endforeach
     </form>
