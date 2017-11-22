@@ -67,7 +67,7 @@ return [
     'providers' => [
         'users' => [
             'driver' => 'eloquent',
-            'model' => Джерело\User::class,
+            'model' => Djerelo\User::class,
         ],
 
         // 'users' => [

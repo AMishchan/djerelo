@@ -1,6 +1,6 @@
 <?php
 
-namespace Джерело\Http\Middleware;
+namespace Djerelo\Http\Middleware;
 
 use Illuminate\Foundation\Http\Middleware\VerifyCsrfToken as Middleware;
 

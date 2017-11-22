@@ -1,11 +1,11 @@
 <?php
 
-namespace Джерело\Http\Controllers;
+namespace Djerelo\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Джерело\Room;
-use Джерело\Categories;
-use Джерело\RoomImages;
+use Djerelo\Room;
+use Djerelo\Categories;
+use Djerelo\RoomImages;
 class RoomController extends Controller
 {
     public function index(Request $request)

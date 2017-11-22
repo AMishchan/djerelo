@@ -12,10 +12,10 @@
                           maxlength="1000">{{ $room['short_description_ru'] }}</textarea>
                 <p>Краткое описание на Украинском языке</p>
                 <textarea name="short_description_ua" cols="1000" maxlength="1000" form="addroom">{{ $room['short_description_ua'] }}
-    </textarea>
+                </textarea>
                 <p>Краткое описание на Английском языке</p>
                 <textarea name="short_description_en" cols="1000" maxlength="1000" form="addroom">{{ $room['short_description_en'] }}
-        </textarea>
+                </textarea>
                 <p>Полное описание на русском языке</p>
                 <textarea name="full_description_ru" cols="2000" maxlength="2000"
                           id="addroom">{{$room['full_description_ru']}}</textarea>

@@ -1,6 +1,6 @@
 <?php
 
-namespace Джерело\Http\Middleware;
+namespace Djerelo\Http\Middleware;
 
 use Closure;
 use Illuminate\Support\Facades\Auth;

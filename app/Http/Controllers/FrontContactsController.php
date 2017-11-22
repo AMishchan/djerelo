@@ -1,9 +1,9 @@
 <?php
 
-namespace Джерело\Http\Controllers;
+namespace Djerelo\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Джерело\Contacts;
+use Djerelo\Contacts;
 //use Illuminate\Mail\Mailer;
 use Mail;
 class FrontContactsController extends Controller

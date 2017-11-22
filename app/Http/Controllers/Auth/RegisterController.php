@@ -1,9 +1,9 @@
 <?php
 
-namespace Джерело\Http\Controllers\Auth;
+namespace Djerelo\Http\Controllers\Auth;
 
-use Джерело\User;
-use Джерело\Http\Controllers\Controller;
+use Djerelo\User;
+use Djerelo\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Foundation\Auth\RegistersUsers;
 
@@ -58,7 +58,7 @@ class RegisterController extends Controller
      * Create a new user instance after a valid registration.
      *
      * @param  array  $data
-     * @return \Джерело\User
+     * @return \Djerelo\User
      */
     protected function create(array $data)
     {

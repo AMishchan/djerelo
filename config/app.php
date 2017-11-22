@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Джерело'),
+    'name' => env('APP_NAME', 'Djerelo'),
 
     /*
     |--------------------------------------------------------------------------
@@ -171,11 +171,11 @@ return [
         /*
          * Application Service Providers...
          */
-        Джерело\Providers\AppServiceProvider::class,
-        Джерело\Providers\AuthServiceProvider::class,
-        // Джерело\Providers\BroadcastServiceProvider::class,
-        Джерело\Providers\EventServiceProvider::class,
-        Джерело\Providers\RouteServiceProvider::class,
+        Djerelo\Providers\AppServiceProvider::class,
+        Djerelo\Providers\AuthServiceProvider::class,
+        // Djerelo\Providers\BroadcastServiceProvider::class,
+        Djerelo\Providers\EventServiceProvider::class,
+        Djerelo\Providers\RouteServiceProvider::class,
 
     ],
 

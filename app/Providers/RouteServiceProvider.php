@@ -1,6 +1,6 @@
 <?php
 
-namespace Джерело\Providers;
+namespace Djerelo\Providers;
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
@@ -14,7 +14,7 @@ class RouteServiceProvider extends ServiceProvider
      *
      * @var string
      */
-    protected $namespace = 'Джерело\Http\Controllers';
+    protected $namespace = 'Djerelo\Http\Controllers';
 
     /**
      * Define your route model bindings, pattern filters, etc.

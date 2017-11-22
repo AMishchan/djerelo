@@ -1,10 +1,10 @@
 <?php
 
-namespace Джерело\Http\Controllers;
+namespace Djerelo\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Джерело\Categories;
-use Джерело\Bookings;
+use Djerelo\Categories;
+use Djerelo\Bookings;
 class CatalogController extends Controller
 {
    public function index()

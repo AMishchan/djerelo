@@ -1,10 +1,10 @@
 <?php
 
-namespace Джерело\Http\Controllers\Admin;
+namespace Djerelo\Http\Controllers\Admin;
 
 use Illuminate\Http\Request;
-use Джерело\Http\Controllers\Controller;
-use Джерело\Contacts;
+use Djerelo\Http\Controllers\Controller;
+use Djerelo\Contacts;
 class ContactsController extends Controller
 {
     public function index ()

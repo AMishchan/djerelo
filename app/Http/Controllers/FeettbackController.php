@@ -1,9 +1,9 @@
 <?php
 
-namespace Джерело\Http\Controllers;
+namespace Djerelo\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Джерело\Feetback;
+use Djerelo\Feetback;
 class FeettbackController extends Controller
 {
     public function index()

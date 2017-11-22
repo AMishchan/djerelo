@@ -22,7 +22,7 @@
             "database/factories"
         ],
         "psr-4": {
-            "Джерело\\": "app/"
+            "Djerelo\\": "app/"
         }
     },
     "autoload-dev": {

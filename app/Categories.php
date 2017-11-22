@@ -1,6 +1,6 @@
 <?php
 
-namespace Джерело;
+namespace Djerelo;
 
 use Illuminate\Database\Eloquent\Model;
 

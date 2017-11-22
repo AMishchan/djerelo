@@ -1,8 +1,8 @@
 <?php
 
-namespace Джерело\Http\Controllers\Auth;
+namespace Djerelo\Http\Controllers\Auth;
 
-use Джерело\Http\Controllers\Controller;
+use Djerelo\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ResetsPasswords;
 
 class ResetPasswordController extends Controller

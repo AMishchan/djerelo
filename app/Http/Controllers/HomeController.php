@@ -1,6 +1,6 @@
 <?php
 
-namespace Джерело\Http\Controllers;
+namespace Djerelo\Http\Controllers;
 
 use Illuminate\Http\Request;
 

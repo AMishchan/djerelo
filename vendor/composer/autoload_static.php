@@ -18,10 +18,6 @@ class ComposerStaticInit94c10696a63b76bcc2ad31b9f8ca8f27
     );
 
     public static $prefixLengthsPsr4 = array (
-        '�' => 
-        array (
-            'Джерело\\' => 15,
-        ),
         'p' => 
         array (
             'phpDocumentor\\Reflection\\' => 25,
@@ -94,6 +90,7 @@ class ComposerStaticInit94c10696a63b76bcc2ad31b9f8ca8f27
             'Dotenv\\' => 7,
             'Doctrine\\Instantiator\\' => 22,
             'Doctrine\\Common\\Inflector\\' => 26,
+            'Djerelo\\' => 8,
             'DeepCopy\\' => 9,
         ),
         'C' => 
@@ -104,10 +101,6 @@ class ComposerStaticInit94c10696a63b76bcc2ad31b9f8ca8f27
     );
 
     public static $prefixDirsPsr4 = array (
-        'Джерело\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/app',
-        ),
         'phpDocumentor\\Reflection\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
@@ -246,6 +239,10 @@ class ComposerStaticInit94c10696a63b76bcc2ad31b9f8ca8f27
         array (
             0 => __DIR__ . '/..' . '/doctrine/inflector/lib/Doctrine/Common/Inflector',
         ),
+        'Djerelo\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/app',
+        ),
         'DeepCopy\\' => 
         array (
             0 => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy',
@@ -334,6 +331,39 @@ class ComposerStaticInit94c10696a63b76bcc2ad31b9f8ca8f27
         'DeepCopy\\TypeFilter\\Spl\\SplDoublyLinkedList' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/TypeFilter/Spl/SplDoublyLinkedList.php',
         'DeepCopy\\TypeFilter\\TypeFilter' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/TypeFilter/TypeFilter.php',
         'DeepCopy\\TypeMatcher\\TypeMatcher' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/TypeMatcher/TypeMatcher.php',
+        'Djerelo\\Bookings' => __DIR__ . '/../..' . '/app/Bookings.php',
+        'Djerelo\\Categories' => __DIR__ . '/../..' . '/app/Categories.php',
+        'Djerelo\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
+        'Djerelo\\Contacts' => __DIR__ . '/../..' . '/app/Contacts.php',
+        'Djerelo\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
+        'Djerelo\\Feetback' => __DIR__ . '/../..' . '/app/Feetback.php',
+        'Djerelo\\Http\\Controllers\\Admin\\CategoryController' => __DIR__ . '/../..' . '/app/Http/Controllers/Admin/CategoryController.php',
+        'Djerelo\\Http\\Controllers\\Admin\\ContactsController' => __DIR__ . '/../..' . '/app/Http/Controllers/Admin/ContactsController.php',
+        'Djerelo\\Http\\Controllers\\Admin\\RoomController' => __DIR__ . '/../..' . '/app/Http/Controllers/Admin/RoomController.php',
+        'Djerelo\\Http\\Controllers\\Auth\\ForgotPasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/ForgotPasswordController.php',
+        'Djerelo\\Http\\Controllers\\Auth\\LoginController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/LoginController.php',
+        'Djerelo\\Http\\Controllers\\Auth\\RegisterController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/RegisterController.php',
+        'Djerelo\\Http\\Controllers\\Auth\\ResetPasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/ResetPasswordController.php',
+        'Djerelo\\Http\\Controllers\\CatalogController' => __DIR__ . '/../..' . '/app/Http/Controllers/CatalogController.php',
+        'Djerelo\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
+        'Djerelo\\Http\\Controllers\\FeettbackController' => __DIR__ . '/../..' . '/app/Http/Controllers/FeettbackController.php',
+        'Djerelo\\Http\\Controllers\\FrontContactsController' => __DIR__ . '/../..' . '/app/Http/Controllers/FrontContactsController.php',
+        'Djerelo\\Http\\Controllers\\HomeController' => __DIR__ . '/../..' . '/app/Http/Controllers/HomeController.php',
+        'Djerelo\\Http\\Controllers\\RoomController' => __DIR__ . '/../..' . '/app/Http/Controllers/RoomController.php',
+        'Djerelo\\Http\\Kernel' => __DIR__ . '/../..' . '/app/Http/Kernel.php',
+        'Djerelo\\Http\\Middleware\\EncryptCookies' => __DIR__ . '/../..' . '/app/Http/Middleware/EncryptCookies.php',
+        'Djerelo\\Http\\Middleware\\RedirectIfAuthenticated' => __DIR__ . '/../..' . '/app/Http/Middleware/RedirectIfAuthenticated.php',
+        'Djerelo\\Http\\Middleware\\TrimStrings' => __DIR__ . '/../..' . '/app/Http/Middleware/TrimStrings.php',
+        'Djerelo\\Http\\Middleware\\TrustProxies' => __DIR__ . '/../..' . '/app/Http/Middleware/TrustProxies.php',
+        'Djerelo\\Http\\Middleware\\VerifyCsrfToken' => __DIR__ . '/../..' . '/app/Http/Middleware/VerifyCsrfToken.php',
+        'Djerelo\\Providers\\AppServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AppServiceProvider.php',
+        'Djerelo\\Providers\\AuthServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AuthServiceProvider.php',
+        'Djerelo\\Providers\\BroadcastServiceProvider' => __DIR__ . '/../..' . '/app/Providers/BroadcastServiceProvider.php',
+        'Djerelo\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/app/Providers/EventServiceProvider.php',
+        'Djerelo\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/app/Providers/RouteServiceProvider.php',
+        'Djerelo\\Room' => __DIR__ . '/../..' . '/app/Room.php',
+        'Djerelo\\RoomImages' => __DIR__ . '/../..' . '/app/RoomImages.php',
+        'Djerelo\\User' => __DIR__ . '/../..' . '/app/User.php',
         'Doctrine\\Common\\Inflector\\Inflector' => __DIR__ . '/..' . '/doctrine/inflector/lib/Doctrine/Common/Inflector/Inflector.php',
         'Doctrine\\Common\\Lexer\\AbstractLexer' => __DIR__ . '/..' . '/doctrine/lexer/lib/Doctrine/Common/Lexer/AbstractLexer.php',
         'Doctrine\\Instantiator\\Exception\\ExceptionInterface' => __DIR__ . '/..' . '/doctrine/instantiator/src/Doctrine/Instantiator/Exception/ExceptionInterface.php',
@@ -3520,39 +3550,6 @@ class ComposerStaticInit94c10696a63b76bcc2ad31b9f8ca8f27
         'phpDocumentor\\Reflection\\Types\\String_' => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src/Types/String_.php',
         'phpDocumentor\\Reflection\\Types\\This' => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src/Types/This.php',
         'phpDocumentor\\Reflection\\Types\\Void_' => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src/Types/Void_.php',
-        'Джерело\\Bookings' => __DIR__ . '/../..' . '/app/Bookings.php',
-        'Джерело\\Categories' => __DIR__ . '/../..' . '/app/Categories.php',
-        'Джерело\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
-        'Джерело\\Contacts' => __DIR__ . '/../..' . '/app/Contacts.php',
-        'Джерело\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
-        'Джерело\\Feetback' => __DIR__ . '/../..' . '/app/Feetback.php',
-        'Джерело\\Http\\Controllers\\Admin\\CategoryController' => __DIR__ . '/../..' . '/app/Http/Controllers/Admin/CategoryController.php',
-        'Джерело\\Http\\Controllers\\Admin\\ContactsController' => __DIR__ . '/../..' . '/app/Http/Controllers/Admin/ContactsController.php',
-        'Джерело\\Http\\Controllers\\Admin\\RoomController' => __DIR__ . '/../..' . '/app/Http/Controllers/Admin/RoomController.php',
-        'Джерело\\Http\\Controllers\\Auth\\ForgotPasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/ForgotPasswordController.php',
-        'Джерело\\Http\\Controllers\\Auth\\LoginController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/LoginController.php',
-        'Джерело\\Http\\Controllers\\Auth\\RegisterController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/RegisterController.php',
-        'Джерело\\Http\\Controllers\\Auth\\ResetPasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/ResetPasswordController.php',
-        'Джерело\\Http\\Controllers\\CatalogController' => __DIR__ . '/../..' . '/app/Http/Controllers/CatalogController.php',
-        'Джерело\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
-        'Джерело\\Http\\Controllers\\FeettbackController' => __DIR__ . '/../..' . '/app/Http/Controllers/FeettbackController.php',
-        'Джерело\\Http\\Controllers\\FrontContactsController' => __DIR__ . '/../..' . '/app/Http/Controllers/FrontContactsController.php',
-        'Джерело\\Http\\Controllers\\HomeController' => __DIR__ . '/../..' . '/app/Http/Controllers/HomeController.php',
-        'Джерело\\Http\\Controllers\\RoomController' => __DIR__ . '/../..' . '/app/Http/Controllers/RoomController.php',
-        'Джерело\\Http\\Kernel' => __DIR__ . '/../..' . '/app/Http/Kernel.php',
-        'Джерело\\Http\\Middleware\\EncryptCookies' => __DIR__ . '/../..' . '/app/Http/Middleware/EncryptCookies.php',
-        'Джерело\\Http\\Middleware\\RedirectIfAuthenticated' => __DIR__ . '/../..' . '/app/Http/Middleware/RedirectIfAuthenticated.php',
-        'Джерело\\Http\\Middleware\\TrimStrings' => __DIR__ . '/../..' . '/app/Http/Middleware/TrimStrings.php',
-        'Джерело\\Http\\Middleware\\TrustProxies' => __DIR__ . '/../..' . '/app/Http/Middleware/TrustProxies.php',
-        'Джерело\\Http\\Middleware\\VerifyCsrfToken' => __DIR__ . '/../..' . '/app/Http/Middleware/VerifyCsrfToken.php',
-        'Джерело\\Providers\\AppServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AppServiceProvider.php',
-        'Джерело\\Providers\\AuthServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AuthServiceProvider.php',
-        'Джерело\\Providers\\BroadcastServiceProvider' => __DIR__ . '/../..' . '/app/Providers/BroadcastServiceProvider.php',
-        'Джерело\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/app/Providers/EventServiceProvider.php',
-        'Джерело\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/app/Providers/RouteServiceProvider.php',
-        'Джерело\\Room' => __DIR__ . '/../..' . '/app/Room.php',
-        'Джерело\\RoomImages' => __DIR__ . '/../..' . '/app/RoomImages.php',
-        'Джерело\\User' => __DIR__ . '/../..' . '/app/User.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
