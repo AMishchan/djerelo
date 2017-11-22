@@ -10,8 +10,8 @@ class CategoryController extends Controller
    public function index()
    {
     $data['categories'] = Categories::get()->toArray();
-    
-           return view('Admin/showCategories', $data);
+    //dd($data['categories']);
+           return view('admin/showCategories', $data);
 }
     public function AddCategory(Request $request)
     {
@@ -31,7 +31,7 @@ class CategoryController extends Controller
 
         Categories::create($data);
 
-        return redirect()->route('admin/showcategories');
+        return redirect()->view('admin/showCategories');
     }
     }
     public function EditCategory(Request $request)

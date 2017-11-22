@@ -2,9 +2,11 @@
     width: 70%;
 
 }
-.navbar-brand{
+
+.navbar-brand {
     font-weight: 700;
 }
+
 input[name=main_img] {
     margin: 30px 59px 30px 41%;
     width: fit-content;
@@ -28,12 +30,14 @@ input[type=submit] {
 #addroom img {
     width: 50%;
 }
-select{
+
+select {
     outline: 2px solid rgba(212, 204, 127, 0.64);
     padding: 3px;
     font-size: 120%;
 
 }
+
 .btn {
     font-weight: 600;
     background-color: #d6dab4;
@@ -54,27 +58,31 @@ select{
 .btn::-moz-focus-inner {
     border: 2px solid rgba(212, 204, 127, 0.64);
 }
+
 input:active, input:focus {
     outline: 2px solid rgba(212, 204, 127, 0.64);;
 }
 
 input::-moz-focus-inner {
-    border:2px solid rgba(212, 204, 127, 0.64);;
+    border: 2px solid rgba(212, 204, 127, 0.64);;
 }
+
 textarea:active, textarea:focus {
     outline: 2px solid rgba(212, 204, 127, 0.64);;
 }
 
 textarea::-moz-focus-inner {
-    border:2px solid rgba(212, 204, 127, 0.64);;
+    border: 2px solid rgba(212, 204, 127, 0.64);;
 }
+
 select:active, select:focus {
     outline: 2px solid rgba(212, 204, 127, 0.64);;
 }
 
 select::-moz-focus-inner {
-    border:2px solid rgba(212, 204, 127, 0.64);;
+    border: 2px solid rgba(212, 204, 127, 0.64);;
 }
+
 /*===================================showroom*/
 .mid-h {
     text-align: center;
@@ -153,105 +161,179 @@ select::-moz-focus-inner {
 .show-contacts td {
     border: 1px solid #bac55f;
 }
-.show-contacts h1{
+
+.show-contacts h1 {
     border-bottom: 2px solid #b4c557;
     padding: 1em;
 }
+
 .show-contacts table td {
     padding: 3px;
 }
+
 /*=======================end contacts=============*/
 /*=======================editcontacts=============*/
-.edit-contact form{
+.edit-contact form {
     width: 60%;
     margin: auto;
     text-align: center;
     text-align: -moz-center;
     text-align: -webkit-center;
 }
-.edit-contact form input{
+
+.edit-contact form input {
     width: 100%;
     margin: auto;
 
 }
+
 .edit-contact form p {
     margin-bottom: 1em;
     margin-top: 1em;
     font-size: 120%;
     border-bottom: 1px solid #b4c557;
 }
-.edit-contact form input:last-child{
+
+.edit-contact form input:last-child {
     margin-top: 2em;
     width: auto;
 }
+
 /*=======================end edit contacts=============*/
 /*=======================add contacts=============*/
-.add-contact form, .room-edit form{
+.add-contact form, .room-edit form {
     width: 60%;
     margin: auto;
     text-align: center;
     text-align: -moz-center;
     text-align: -webkit-center;
 }
-.add-contact input, .room-edit textarea{
-    width:100%;
+
+.add-contact input, .room-edit textarea {
+    width: 100%;
 }
-.add-contact form input:last-child{
+
+.add-contact form input:last-child {
     width: auto;
 }
+
 .add-contact form p {
     margin-bottom: 1em;
     margin-top: 1em;
     font-size: 120%;
     border-bottom: 1px solid #b4c557;
 }
+
 /*=======================end add contacts=============*/
 /*=======================room edit=============*/
-.room-edit p{
+.room-edit p {
     border-bottom: 2px solid #b4c557;
     font-size: 120%;
 }
+
 .input_file {
     position: relative;
     margin: 0 0 10px 0;
 }
 
-.input_file input[type=file] {
-    opacity: 0;
-    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);
-    position: relative;
-    z-index: 2;
-    cursor: pointer;
-    height: 34px;
-    width: 300px;
-}
-
-.fake_file {
-    position: absolute;
-    z-index: 1;
-    top: 0;
-    left: 0;
-}
-
-.fake_file input[type=button] {
-    border-radius: 17px;
-
-    height: 34px;
-    background-color: #f13fa8;
-    border: none;
-    color: #fff;
-    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-    font-size: 14px;
-    cursor: pointer;
-}
-.fake_file_input{
-    height: 28px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-
-    position: relative;
-    top: 2px;
-    font-size: 20px;
-    width: 210px;
-}
 /*=======================end room edit=============*/
+/*=======================home=============*/
+.panel-default {
+    border: 1px solid #b4c557;
+}
+
+#app {
+    background-color: #f2f4e8;;
+}
+
+.admin-home div {
+    text-align: center;
+}
+
+.admin-home div p {
+    text-align: center;
+    text-align: -moz-center;
+    text-align: -webkit-center;
+    border-radius: 3px;
+    background-color: rgba(209, 211, 199, 0.98);
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+    padding: 3px;
+}
+
+.admin-home div p:hover {
+    background-color: rgba(219, 224, 208, 0.98);
+}
+
+.admin-home {
+    margin-top: 2em;
+
+}
+
+.admin-home a {
+    color: #333;
+    font-size: 2em;
+}
+
+/*=======================end home=============*/
+/*=======================show-category-admin=============*/
+.show-category-admin td img {
+    width: 100%;
+}
+
+.show-category-admin td {
+    padding: 5px;
+}
+
+.show-category-admin table {
+    border: 1px solid #b4c557;
+    text-align: center;
+    text-align: -moz-center;
+    text-align: -webkit-center;
+}
+
+.show-category-admin p {
+    font-size: 2em;
+    padding-bottom: 1em;
+    border-bottom: 2px solid #b4c557;
+    margin-bottom: 1em;
+    text-align: center;
+    text-align: -moz-center;
+    text-align: -webkit-center;
+}
+
+/*=======================end show-category-admin=============*/
+/*=======================add-category-container=============*/
+.add-category-container form{
+    margin: auto;
+    width:60%;
+}
+.add-category-container form input{
+    width:100%;
+}
+.add-category-container p{
+    border-bottom: 2px solid #b4c557;
+    font-size: 120%;
+    margin: 1em;
+}
+.add-category-container form input:last-child{
+    width:10em;
+}
+/*=======================end add-category-container=============*/
+/*=======================edit-category-admin=============*/
+.edit-category-admin form{
+    width: 60%;
+    margin: auto;
+}
+.edit-category-admin form input{
+    width: 100%;
+}
+.edit-category-admin form input:last-child{
+    width: 10em;
+}
+.edit-category-admin p{
+    border-bottom: 2px solid #b4c557;
+    font-size: 120%;
+    margin: 1em;
+}
+/*=======================end edit-category-admin=============*/
