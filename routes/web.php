@@ -37,3 +37,4 @@ Route::post('feetback/sendfeedback', 'FeettbackController@addFeedback')->name('s
 Route::get('roomlist', 'RoomController@index')->name('roomlist');
 Route::post('preorder', 'CatalogController@PreOrder')->name('preorder');
 Route::get('admin/showcategories', 'Admin\CategoryController@index')->name('admin/showcategories');
+Route::delete('admin/rooms/images/delete/{image}', 'Admin\RoomController@delete')->name('imageDelete');

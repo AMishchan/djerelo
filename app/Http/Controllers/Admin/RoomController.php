@@ -81,8 +81,8 @@ class RoomController extends Controller
 
                 ->get()
                 ->toArray();
-           
-            return view('admin/RoomImages',$data);
+
+            return view('admin/RoomImages');
         }
         if($request->hasFile('image') && $request->file('image')->isValid()) {
             $imageName = $request->file('image')->getClientOriginalName();
@@ -98,7 +98,15 @@ class RoomController extends Controller
 
         RoomImages::create($data);
 
-        return redirect()->route('rooms');
+        return redirect()->back();
+
+    }
+
+    public function delete($image)
+    {
+        $image_tmp = \Djerelo\RoomImages::where('id', $image)->first();
+        $image_tmp->delete();
+        return redirect()->back();
 
     }
 }
