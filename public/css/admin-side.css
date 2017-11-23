@@ -340,3 +340,24 @@ select::-moz-focus-inner {
     margin: 1em;
 }
 /*=======================end edit-category-admin=============*/
+/*=======================room-add-admin=============*/
+.room-add-admin form{
+    width: 60%;
+    margin: auto;
+}
+.room-add-admin form textarea{
+    width: 100%;
+}
+.room-add-admin form input{
+    width: 100%;
+}
+.room-add-admin p{
+    border-bottom: 2px solid #b4c557;
+    font-size: 120%;
+    margin: 1em;
+}
+.room-add-admin form input:last-child{
+    width: 10em;
+}
+.room-add-admin{}
+/*=======================end room-add-admin=============*/

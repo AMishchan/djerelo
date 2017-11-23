@@ -54,6 +54,7 @@ class RoomController extends Controller
         //$oldImgName = $data['roomData'][0]['main_img'];
 
         if($request->isMethod('post')) {
+            $data = $request->all();
 
             if(isset($data['_token'])) {
                 unset($data['_token']);
@@ -73,6 +74,9 @@ class RoomController extends Controller
         }
 
     }
+
+    
+
     public function images(Request $request)
     {
         if($request->isMethod('get') ) {
@@ -82,7 +86,7 @@ class RoomController extends Controller
                 ->get()
                 ->toArray();
 
-            return view('admin/RoomImages');
+            return view('admin/RoomImages',$data);
         }
         if($request->hasFile('image') && $request->file('image')->isValid()) {
             $imageName = $request->file('image')->getClientOriginalName();
@@ -98,7 +102,7 @@ class RoomController extends Controller
 
         RoomImages::create($data);
 
-        return redirect()->back();
+        return redirect()->route('rooms');
 
     }
 
