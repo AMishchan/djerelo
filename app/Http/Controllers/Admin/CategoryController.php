@@ -5,12 +5,15 @@ namespace Djerelo\Http\Controllers\Admin;
 use Illuminate\Http\Request;
 use Djerelo\Http\Controllers\Controller;
 use Djerelo\Categories;
+use Illuminate\Support\Facades\URL;
 class CategoryController extends Controller
 {
    public function index()
    {
+       $data['url_re'] =  URL::current();
     $data['categories'] = Categories::get()->toArray();
     //dd($data['categories']);
+       
            return view('admin/showCategories', $data);
 }
     public function AddCategory(Request $request)
@@ -36,6 +39,7 @@ class CategoryController extends Controller
     }
     public function EditCategory(Request $request)
     {
+       $data['url_re'] =  URL::current();
         $id = $request->get('id');
         $data['categoryData'] = Categories::where('id', $id)->get()->toArray();
 

@@ -2,6 +2,7 @@
 
 @section('content')
     <div class="container edit-category-admin">
+
     <form align="center" method="post" enctype="multipart/form-data" id="editcategory">
         {{csrf_field()}}
         @foreach($categoryData as $category)

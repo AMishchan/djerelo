@@ -19,21 +19,6 @@
                 </div>
             </div>
         </div>
-        <div class="row admin-home">
 
-            <div class="col-lg-4 col-sm-3">
-                <p>
-                    <a href="/djerelo/public/admin/rooms">Комнаты</a></p>
-            </div>
-            <div class="col-lg-4 col-sm-3">
-                <p>
-                    <a href="/djerelo/public/admin/contacts">Контакты</a></p>
-            </div>
-            <div class="col-lg-4 col-sm-3"><p>
-                    <a href="/djerelo/public/admin/showcategories">Категории</a></p>
-            </div>
-
-
-        </div>
     </div>
 @endsection
