@@ -18,7 +18,7 @@
 <div id="app">
     <nav class="navbar navbar-default navbar-static-top">
         <div class="container">
-            {{$url_re}}
+
             <div class="navbar-header">
 
                 <!-- Collapsed Hamburger -->
@@ -41,10 +41,7 @@
                 @else
                     <ul class="nav navbar-nav navbar-left navbar-default admin-navbar">
                         <li class="dropdown">
-                            <a href="/djerelo/public/admin/rooms">
-                                Комнаты
-                            </a>
-
+                            <a href="/djerelo/public/admin/rooms">Комнаты</a>
                         </li>
                         <li>
                             <a href="/djerelo/public/admin/contacts">Контакты</a>

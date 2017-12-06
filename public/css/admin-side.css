@@ -5,7 +5,8 @@
 .admin-navbar{
 width: fit-content;
     margin-left:27%;
-    border: 1px solid #d2d1d1;
+    border-left: 1px solid #d2d1d1;
+    border-right: 1px solid #d2d1d1;
 }
 .admin-navbar li a{
     background-color: #eef4d6;
