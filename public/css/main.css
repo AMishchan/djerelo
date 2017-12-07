@@ -48,6 +48,7 @@ body textarea:required:valid {
 .form-holder{
   width: fit-content;
   margin: auto;
+  margin-top:4em;
   padding: 10px;
   background-color: rgba(220, 207, 147, 0.64);
 }
