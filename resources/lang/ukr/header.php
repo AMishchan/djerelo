@@ -18,7 +18,9 @@ return [
     |
     */
 
-    'welcome' => 'Hello.',
-    'throttle' => 'Too many login attempts. Please try again in :seconds seconds.',
+    'mainPage' => 'Головна',
+    'catalogOfNumbers' => 'Каталог номерів',
+    'review' => 'Відгуки',
+    'contacts' => 'Контакти',
 
 ];

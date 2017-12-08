@@ -5,7 +5,7 @@ namespace Faker\Provider\ka_GE;
 class Internet extends \Faker\Provider\Internet
 {
     protected static $freeEmailDomain = array(
-        'posta.ge', 'boom.ge', 'hotmail.com', 'gmail.com', 'yahoo.com', 'mail.ru', 'avoe.ge'
+        'posta.ge', 'boom.ge', 'hotmail.com', 'gmail.com', 'yahoo.com', 'mail.ukr', 'avoe.ge'
     );
 
     protected static $tld = array(

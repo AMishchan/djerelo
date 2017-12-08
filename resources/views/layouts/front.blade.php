@@ -47,10 +47,10 @@
                     <div class="collapse navbar-collapse cl-effect-7" id="myNavbar">
                         <ul class="nav navbar-nav">
 
-                            <li><a href="/">Головна</a></li>
-                            <li><a href="catalog">Каталог номерів</a></li>
-                            <li><a href="feetback">Відгуки</a></li>
-                            <li><a href="contacts">Контакти</a></li>
+                            <li><a href="/../..">@lang('header.mainPage')</a></li>
+                            <li><a href="catalog">@lang('header.catalogOfNumbers')</a></li>
+                            <li><a href="feetback">@lang('header.review')</a></li>
+                            <li><a href="contacts">@lang('header.contacts')</a></li>
                         </ul>
                     </div>
                 </div>

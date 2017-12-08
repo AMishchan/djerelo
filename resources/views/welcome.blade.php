@@ -174,8 +174,9 @@
                 Замовлення екскурсій, квитків в театр, з/д та авіа  квитків <br>
                 Побудка на прохання <br>
                 Аптечка <br>
-                Дошка для прасування, праска Сейф для зберігання цінностей (у адміністратора)   <br>
-                <br>
+                Дошка для прасування, праска <br>
+                Сейф для зберігання цінностей (у адміністратора)   <br>
+
                 <strong>Free of charge next services appear: </strong>
                 <br>Delivery to luggage at a settlement, eviction <br>
                 Place for an auto on the stand of hotel<br>

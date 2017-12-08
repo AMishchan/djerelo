@@ -140,7 +140,7 @@ class TranslatorTest extends TestCase
             array(':lang("en-us")', array('second', 'fourth')),
             array(':lang(en-nz)', array('third')),
             array(':lang(fr)', array('fifth')),
-            array(':lang(ru)', array('sixth')),
+            array(':lang(ukr)', array('sixth')),
             array(":lang('ZH')", array('eighth')),
             array(':lang(de) :lang(zh)', array('eighth')),
             array(':lang(en), :lang(zh)', array('first', 'second', 'third', 'fourth', 'eighth')),

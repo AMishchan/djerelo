@@ -279,11 +279,11 @@ class TranslatorTest extends TestCase
     public function testNestedFallbackCatalogueWhenUsingMultipleLocales()
     {
         $translator = new Translator('fr');
-        $translator->setFallbackLocales(array('ru', 'en'));
+        $translator->setFallbackLocales(array('ukr', 'en'));
 
         $translator->getCatalogue('fr');
 
-        $this->assertNotNull($translator->getCatalogue('ru')->getFallbackCatalogue());
+        $this->assertNotNull($translator->getCatalogue('ukr')->getFallbackCatalogue());
     }
 
     public function testFallbackCatalogueResources()
@@ -504,7 +504,7 @@ class TranslatorTest extends TestCase
 
     public function testTransChoiceFallback()
     {
-        $translator = new Translator('ru');
+        $translator = new Translator('ukr');
         $translator->setFallbackLocales(array('en'));
         $translator->addLoader('array', new ArrayLoader());
         $translator->addResource('array', array('some_message2' => 'one thing|%count% things'), 'en');
@@ -514,7 +514,7 @@ class TranslatorTest extends TestCase
 
     public function testTransChoiceFallbackBis()
     {
-        $translator = new Translator('ru');
+        $translator = new Translator('ukr');
         $translator->setFallbackLocales(array('en_US', 'en'));
         $translator->addLoader('array', new ArrayLoader());
         $translator->addResource('array', array('some_message2' => 'one thing|%count% things'), 'en_US');
@@ -524,7 +524,7 @@ class TranslatorTest extends TestCase
 
     public function testTransChoiceFallbackWithNoTranslation()
     {
-        $translator = new Translator('ru');
+        $translator = new Translator('ukr');
         $translator->setFallbackLocales(array('en'));
         $translator->addLoader('array', new ArrayLoader());
 

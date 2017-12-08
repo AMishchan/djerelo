@@ -2856,10 +2856,10 @@
 }).call(this);
 
 //! moment.js locale configuration
-//! locale : russian (ru)
+//! locale : russian (ukr)
 //! author : Viktorminator : https://github.com/Viktorminator
 //! Author : Menelion Elensúle : https://github.com/Oire
-//! Добавлено для Русской сборки от opencart-russia.ru
+//! Добавлено для Русской сборки от opencart-russia.ukr
 
 (function (global, factory) {
    typeof exports === 'object' && typeof module !== 'undefined' ? factory(require('../moment')) :

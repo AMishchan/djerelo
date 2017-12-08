@@ -343,7 +343,7 @@ class MessageSelector
             case 'bs_BA':
             case 'hr':
             case 'hr_HR':
-            case 'ru':
+            case 'ukr':
             case 'ru_RU':
             case 'ru_UA':
             case 'sr':

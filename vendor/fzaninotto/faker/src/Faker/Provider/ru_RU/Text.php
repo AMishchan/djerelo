@@ -5,7 +5,7 @@ namespace Faker\Provider\ru_RU;
 class Text extends \Faker\Provider\Text
 {
     /**
-     * From ru.wikisource.org
+     * From ukr.wikisource.org
      *
      * Текст доступен по лицензии Creative Commons Attribution-ShareAlike,
      * в отдельных случаях могут действовать дополнительные условия.
