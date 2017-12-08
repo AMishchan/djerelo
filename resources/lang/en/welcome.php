@@ -47,7 +47,7 @@ return [
                 pool with hydromassage, parking, necessary techniques. Welcome to our hotel complex.
                 We will make every effort to have you as our regular customer.',
     'ourAdvantages' => 'Our advantages',
-    'sertificate'=>' Hotel complex "Dzherelo" of PJSC "Ukrnafta", certificate of conformity of category "Three stars",
+    'sertificate'=>' Hotel complex "Dzherelo" of PJSC "Ukrnafta",  certificate of conformity of category "Three stars",
              offers services for the provision of hotel services for the individual placement of citizens (not groups)
              with the possibility of concluding cooperation agreements.',
     'bigRoom'=>'The hall for holding the meetings, seminars, meetings, trainings up to 30 osib

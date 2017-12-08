@@ -1,7 +1,7 @@
 @extends('layouts.front')
 @section('content')
     <div class="container review-container">
-        <h2 class="mid-h">ВІДГУКИ НАШИХ КЛІЕНТІВ</h2>
+        <h2 class="mid-h">@lang('feetback.reviewsClients')</h2>
         <div class="col-lg-12 col-sm-12 col-xs-12">
 
             <div class="review-slider-wrap">
@@ -36,11 +36,11 @@
         <div class="form-holder">
             <form id="feetback" align="center" method="post" action="{{ route('sendfeedback') }}">
                 {{csrf_field()}}
-                <input type="text" name="first_name" value="{{ old('first_name') }}" placeholder="Имя" required>
+                <input type="text" name="first_name" value="{{ old('first_name') }}" placeholder="@lang('feetback.name')" required>
                 <br>
-                <textarea name="feetback" form="feetback" placeholder="Отзыв" required></textarea>
+                <textarea name="feetback" form="feetback" placeholder="@lang('feetback.review')" required></textarea>
                 <br>
-                <input type="submit" name="submit" value="Отправить">
+                <input type="submit" name="submit" value="@lang('feetback.send')">
 
             </form>
         </div>

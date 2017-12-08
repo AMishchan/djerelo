@@ -1,12 +1,12 @@
 @extends('layouts.front')
 @section('content')
     <div class="container apt-card">
-        <h4 class="mid-h">КАРТКА НОМЕРА</h4>
+        <h4 class="mid-h">@lang('catalog.numCard')</h4>
         <div class="container">
             <div class="row apt-card-row">
                 @foreach($rooms as $room)
                     <img class="img-responsive" src="uploads/{{$room['main_img']}}" alt="">
-                    <p class="apt-range"><q>Кімната номер: {{$room['room_number']}}</q></p>
+                    <p class="apt-range"><q>@lang('catalog.roomNum') {{$room['room_number']}}</q></p>
                 @endforeach
                 <div class="span12">
                     <div class="owl-carousel apt-card-slider">
@@ -19,11 +19,11 @@
                 <div class="container">
                     @foreach ($rooms as $room)
                         <div class="row apt-description">
-                            <h4>Опис номеру:</h4>
+                            <h4>@lang('catalog.descRoom')</h4>
                             <p class="list-header">{{$room['short_description_ua']}}</p>
                             <p class="list-f list-header"> {{$room['full_description_ua']}}</p>
                             <div class="row">
-                                <button class="btn btn-default apt-description-btn">Забронювати</button>
+                                <button class="btn btn-default apt-description-btn">@lang('catalog.reserve')</button>
                             </div>
                         </div>
                     @endforeach

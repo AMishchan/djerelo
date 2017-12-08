@@ -20,7 +20,7 @@
                 </div>
                 <div class="col-sm-6">
                     <div class="row">
-                        <p class="rooms-cat-num"><q>Кімната {{$room['room_number']}}</q></p>
+                        <p class="rooms-cat-num"><q>@lang('catalog.room') {{$room['room_number']}}</q></p>
                         <div class="row">
                             <div class="col-sm-10 col-sm-offset-1">
                                 <div class="rooms-cat-slider-wrap">
@@ -34,7 +34,7 @@
                         </div>
                         <button type="button" class="btn btn-default btn-rooms-cat"
                                 onclick="location.href='roomdetails?id={{$room['ID']}}'">
-                            Детальніше
+                            @lang('catalog.readMore')
 
                         </button>
                     </div>

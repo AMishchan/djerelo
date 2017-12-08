@@ -19,8 +19,8 @@ return [
     */
 
     'reviewsClients' =>'REVIEWS OF OUR CLIENTS',
-    'name'=>'Name',
-    'review'=>'Review',
+    'name'=>'name',
+    'review'=>'review',
     'send'=>'Send',
 
 ];
