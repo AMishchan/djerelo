@@ -34,7 +34,7 @@ class CategoryController extends Controller
 
         Categories::create($data);
 
-        return redirect()->view('admin/showCategories');
+        return redirect()->route('admin/showcategories');
     }
     }
     public function EditCategory(Request $request)

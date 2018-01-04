@@ -41,15 +41,15 @@
                 @else
                     <ul class="nav navbar-nav navbar-left navbar-default admin-navbar">
                         <li class="dropdown">
-                            <a href="/djerelo/public/admin/rooms">Комнаты</a>
+                            <a href="/admin/rooms">Комнаты</a>
                         </li>
                         <li>
-                            <a href="/djerelo/public/admin/contacts">Контакты</a>
+                            <a href="/admin/contacts">Контакты</a>
                             <ul class="dropdown-menu" role="menu">
                                 <li><a href=""></a></li>
                             </ul>
                         </li>
-                        <li><a href="/djerelo/public/admin/showcategories">Категории</a></li>
+                        <li><a href="/admin/showcategories">Категории</a></li>
                     </ul>
                 @endguest
                 <!-- Left Side Of Navbar -->

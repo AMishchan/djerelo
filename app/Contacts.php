@@ -12,8 +12,8 @@ class Contacts extends Model
         'address_ua',
         'address_ru',
         'address_en'
-        
-        
+
+
     ];
 
     public $timestamps = false;

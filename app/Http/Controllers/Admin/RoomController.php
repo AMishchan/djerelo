@@ -12,8 +12,7 @@ class RoomController extends Controller
     public function index ()
     {
         //$data['rooms'] = Room::get()->toArray();
-        $data['rooms'] = Room
-            ::join('categories', 'rooms.category_id', '=', 'categories.id')->get()->toArray();
+        $data['rooms'] = Room::join('categories', 'rooms.category_id', '=', 'categories.id')->get()->toArray();
         return view('admin/showRoom', $data);
     }
     public function addRoom(Request $request)
@@ -42,7 +41,6 @@ class RoomController extends Controller
         $id = $request->get('id');
         $data['roomData'] = Room::where('rooms.ID', $id)
             ->join('categories', 'rooms.category_id', '=', 'categories.id')
-
             ->get()
             ->toArray();
         $data['categories'] = Categories::get()->toArray();

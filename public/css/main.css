@@ -253,7 +253,7 @@ input:focus{
 .apt-catalog button:hover{
 
   outline: none;
-
+  background-color: aliceblue;
   color: #c4b157;
 }
 .about-hotel .row{

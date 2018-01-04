@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="4c966dcf-10b3-4ccf-be7e-71b14391dad0" name=" hotel-dzherelo.com" url="http://195.64.225.10">
+        <fileTransfer host="195.64.225.10" port="21" password="dfc7dfcbdfd8dfebdfcedfc3dfccdfcfdfc8" username="hotel-dzherelo">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

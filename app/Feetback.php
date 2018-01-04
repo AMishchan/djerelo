@@ -10,7 +10,7 @@ class Feetback extends Model
     protected  $fillable = [
         'first_name',
         'feetback'
-        
+
     ];
 
     public $timestamps = false;
