@@ -20,7 +20,7 @@
 #    RewriteRule ^ index.php [L]
 #</IfModule>
            <IfModule mod_rewrite.c>
-               Options +SymLinksIfOwnerMatch
+              # Options +SymLinksIfOwnerMatch
                RewriteEngine On
                # Redirect Trailing Slashes...
                RewriteRule ^(.*)/$ /$1 [L,R=301]

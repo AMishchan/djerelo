@@ -24,7 +24,14 @@
                         <a class="btn show-room-btn" href="{{route('edit', ['id'=>$room['ID']])}}">Редактировать</a>
                         <br>
                         <a class="btn show-room-btn" href="{{route('admin/rooms/images', ['id'=>$room['ID']])}}">Изображения комнаты</a>
-                    </td>
+
+
+                        <form action="{{route('deleteRoom', ['room'=>$room['ID']])}}" method="post">
+                            {{--<input type="hidden" name="_method" value="DELETE">--}}
+                            {{method_field('DELETE')}}
+                            {{csrf_field()}}
+                            <button type="submit" class="btn">Видалити кімнату</button>
+                        </form>
                 </tr>
             @endforeach
         </table>

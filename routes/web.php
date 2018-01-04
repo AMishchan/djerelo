@@ -28,6 +28,8 @@ Route::match(['get', 'post'], 'admin/contacts/add', ['uses' => 'Admin\ContactsCo
 Route::match(['get', 'post'], 'admin/contacts/edit', ['uses' => 'Admin\ContactsController@edit', 'as' => 'contacts/edit'])->middleware('auth');
 Route::get('admin/showcategories', 'Admin\CategoryController@index')->name('admin/showcategories')->middleware('auth');
 Route::delete('admin/rooms/images/delete/{image}', 'Admin\RoomController@delete')->name('imageDelete')->middleware('auth');
+Route::delete('admin/rooms/delete/{room}','Admin\RoomController@destroy')->name('deleteRoom')->middleware('auth');
+Route::delete('admin/rooms/delete/{room}','Admin\RoomController@destroy')->name('deleteRoom')->middleware('auth');
 
 //Front side
 Route::get('/', function () { return view('welcome'); });

@@ -348,8 +348,14 @@ input:focus{
   .bron-form{
     width:100%;
   }
+  .slider-bottom-info{
+    font-size: 0.6em !important;
+  }
   body{
     font-size: 0.7em !important;
+  }
+  .advantage-info{
+    font-size:0.7em !important;
   }
   .btn button{
     font-size: 0.4em;

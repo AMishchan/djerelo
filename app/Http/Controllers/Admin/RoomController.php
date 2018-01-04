@@ -7,6 +7,7 @@ use Djerelo\Room;
 use Djerelo\Categories;
 use Illuminate\Http\Request;
 use Djerelo\RoomImages;
+use Illuminate\Support\Facades\DB;
 class RoomController extends Controller
 {
     public function index ()
@@ -110,5 +111,11 @@ class RoomController extends Controller
         $image_tmp->delete();
         return redirect()->back();
 
+    }
+
+    public function destroy($room)
+    {
+       DB::table('rooms')->where('id', '=', $room)->delete();
+              return redirect()-> back();
     }
 }
