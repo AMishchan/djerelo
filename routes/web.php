@@ -29,7 +29,7 @@ Route::match(['get', 'post'], 'admin/contacts/edit', ['uses' => 'Admin\ContactsC
 Route::get('admin/showcategories', 'Admin\CategoryController@index')->name('admin/showcategories')->middleware('auth');
 Route::delete('admin/rooms/images/delete/{image}', 'Admin\RoomController@delete')->name('imageDelete')->middleware('auth');
 Route::delete('admin/rooms/delete/{room}','Admin\RoomController@destroy')->name('deleteRoom')->middleware('auth');
-Route::match(['get', 'post'], 'admin/slider', ['uses' => 'Admin\SliderController@images', 'as' => 'admin/slider'])->middleware('auth');
+Route::match(['get', 'post'], 'admin/slider', ['uses' => 'Admin\SliderController@index', 'as' => 'admin/slider'])->middleware('auth');
 
 
 //Front side
