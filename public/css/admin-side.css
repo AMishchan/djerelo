@@ -3,10 +3,12 @@
 
 }
 .admin-navbar{
-width: fit-content;
-    margin-left:27%;
-    border-left: 1px solid #d2d1d1;
-    border-right: 1px solid #d2d1d1;
+    width: fit-content;
+    margin-left: 27%;
+    border: 2px solid #d2d1d1;
+    margin-bottom: -1px;
+    border-radius: 2px;
+    margin-top: -1px;
 }
 .admin-navbar li a{
     background-color: #eef4d6;

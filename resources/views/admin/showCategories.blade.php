@@ -26,12 +26,7 @@
                     <td>
                         <a class="btn" href="{{route('admin/editcategory', ['id'=>$category['id']])}}">Редагувати</a>
 
-                        <form action="{{route('deleteCategory', ['category'=>$category['id']])}}" method="post">
-                            {{--<input type="hidden" name="_method" value="DELETE">--}}
-                            {{method_field('DELETE')}}
-                            {{csrf_field()}}
-                            <button type="submit" class="btn">Видалити категорію</button>
-                        </form>
+
                     </td>
                 </tr>
             @endforeach

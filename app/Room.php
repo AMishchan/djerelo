@@ -15,7 +15,8 @@ class Room extends Model
         'full_description_ua',
         'full_description_en',
         'main_img',
-        'category_id'
+        'category_id',
+        'status'
     ];
 
     public $timestamps = false;

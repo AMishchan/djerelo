@@ -40,16 +40,10 @@
                 @guest
                 @else
                     <ul class="nav navbar-nav navbar-left navbar-default admin-navbar">
-                        <li class="dropdown">
-                            <a href="/admin/rooms">Комнаты</a>
-                        </li>
-                        <li>
-                            <a href="/admin/contacts">Контакты</a>
-                            <ul class="dropdown-menu" role="menu">
-                                <li><a href=""></a></li>
-                            </ul>
-                        </li>
-                        <li><a href="/admin/showcategories">Категории</a></li>
+                        <li><a href="/admin/rooms">Кімнати</a></li>
+                        <li><a href="/admin/contacts">Контакти</a></li>
+                        <li><a href="/admin/showcategories">Категорії</a></li>
+                        <li><a href="/admin/slider">Слайдер</a></li>
                     </ul>
                 @endguest
                 <!-- Left Side Of Navbar -->
@@ -58,8 +52,8 @@
                         <!-- Authentication Links -->
 
                         @guest
-                        <li><a href="{{ route('login') }}">Login</a></li>
-                        <li><a href="{{ route('register') }}">Register</a></li>
+                        <li><a href="{{ route('login') }}">Вхід</a></li>
+                        <li><a href="{{ route('register') }}">Реєстрація</a></li>
                         @else
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
@@ -71,7 +65,7 @@
                                         <a href="{{ route('logout') }}"
                                            onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
-                                            Logout
+                                            Вихід
                                         </a>
                                         <form id="logout-form" action="{{ route('logout') }}" method="POST"
                                               style="display: none;">

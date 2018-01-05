@@ -71,11 +71,7 @@ class CategoryController extends Controller
         }
 
     }
-    public function destroy($category)
-    {
-        DB::table('categories')->where('id', '=', $category)->delete();
-        return redirect()-> back();
-    }
+   
 }
 
 

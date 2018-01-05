@@ -30,7 +30,13 @@
                             {{--<input type="hidden" name="_method" value="DELETE">--}}
                             {{method_field('DELETE')}}
                             {{csrf_field()}}
-                            <button type="submit" class="btn">Видалити кімнату</button>
+                            <button type="submit" class="btn">
+                                @if($room['status'] == 1)
+                                    {{'Не відображати кімнату'}}
+                                    @else
+                                    {{'Відобразити кімнату'}}
+                                    @endif
+                            </button>
                         </form>
                 </tr>
             @endforeach
