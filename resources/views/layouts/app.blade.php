@@ -13,6 +13,9 @@
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link href="{{ asset('css/admin-side.css') }}" rel="stylesheet">
+
+    <script src="{{asset('libs/jquery/jquery-2.1.1.min.js') }}"></script>
+    <script src="{{asset('libs/owlcarousel/assets/vendors/jquery.min.js') }}"></script>
 </head>
 <body>
 <div id="app">
