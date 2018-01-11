@@ -34,7 +34,7 @@ Route::delete('admin/slider/delete/{image}','Admin\SliderController@delete')->na
 
 
 //Front side
-Route::get('/', function () { return view('welcome'); });
+Route::get('/', 'SliderfrontController@index' )->name('welcome');
 Route::get('/home', 'HomeController@index')->name('home');
 Route::match(['get'], 'catalog', ['uses' => 'CatalogController@index', 'as' => 'catalog']);
 Route::match(['get'], 'contacts', ['uses' => 'FrontContactsController@index', 'as' => 'contacts']);

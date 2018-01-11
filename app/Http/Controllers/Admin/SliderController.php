@@ -25,7 +25,7 @@ class SliderController extends Controller
             $imageName = $request->file('image')->getClientOriginalName();
             $newImageName = time() . $imageName;
             //dd($request->file('image')->move(public_path('uploads'), $newImageName));
-            $request->file('image')->move(public_path('uploads'), $newImageName);
+            $request->file('image')->move(public_path('uploads/main-slider'), $newImageName);
         }
 
         $data = $request->all();

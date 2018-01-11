@@ -12,6 +12,8 @@ class SliderfrontController extends Controller
      */
     public function index()
     {
-        
+        $data['images'] = Slider::select('image')->get()->toArray();
+
+        return view('welcome',$data);
     }
 }

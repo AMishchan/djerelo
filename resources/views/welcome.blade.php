@@ -8,11 +8,11 @@
 
         <div class="span12">
             <div class="owl-carousel top-slider">
-
+@foreach($images as $image)
                 <div class="item">
-                    <img src="img/sliderimg/main-sl.png" alt="hotelmaim1">
+                    <img src="uploads/main-slider/{{$image['image']}}" alt="hotelmain1">
                 </div>
-
+@endforeach
             </div>
         </div>
         <div class="container info-slider-container">
