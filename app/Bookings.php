@@ -10,10 +10,13 @@ class Bookings extends Model
         'arrival',
         'departure',
         'adults',
-        'rooms_quontaty',
+        'rooms_quantity',
         'kids',
         'name',
-        'phone'
+        'phone',
+        'room_id',
+        'room_number',
+        'order_status'
         
         
         

@@ -89,12 +89,11 @@ text-align: -moz-center;
   font-size: 120%;
 }
 .bron-form{
-  width: 37%;
+  width: 100%;
   margin: auto;
   background-color: #eae4c4;
-  opacity: 0.8;
+  opacity: 0.9;
   padding: 2em;
-
 }
 .span12{
   margin-top: 1em;

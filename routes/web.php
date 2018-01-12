@@ -27,6 +27,7 @@ Route::get('roomdetails', 'RoomController@roomDetails')->name('roomdetails');
 Route::match(['get', 'post'], 'admin/contacts/add', ['uses' => 'Admin\ContactsController@add', 'as' => 'contacts/add'])->middleware('auth');
 Route::match(['get', 'post'], 'admin/contacts/edit', ['uses' => 'Admin\ContactsController@edit', 'as' => 'contacts/edit'])->middleware('auth');
 Route::get('admin/showcategories', 'Admin\CategoryController@index')->name('admin/showcategories')->middleware('auth');
+Route::get('admin/showorders', 'Admin\OrderController@index')->name('admin/showorders')->middleware('auth');
 Route::delete('admin/rooms/images/delete/{image}', 'Admin\RoomController@delete')->name('imageDelete')->middleware('auth');
 Route::delete('admin/rooms/delete/{room}','Admin\RoomController@destroy')->name('deleteRoom')->middleware('auth');
 Route::match(['get', 'post'], 'admin/slider', ['uses' => 'Admin\SliderController@images', 'as' => 'admin/slider'])->middleware('auth');

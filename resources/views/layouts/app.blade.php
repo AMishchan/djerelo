@@ -47,6 +47,7 @@
                         <li><a href="/admin/contacts">Контакти</a></li>
                         <li><a href="/admin/showcategories">Категорії</a></li>
                         <li><a href="/admin/slider">Слайдер</a></li>
+                        <li><a href="/admin/showorders">Замовлення</a></li>
                     </ul>
                 @endguest
                 <!-- Left Side Of Navbar -->

@@ -21,7 +21,7 @@ return [
     'contact' =>'CONTACTS',
     'hotel' => 'HOTEL',
     'name' =>'Djerelo',
-    'address' =>'Address:',
+    'address' =>'Address',
     'callingUs' =>'Calling us',
     'accost' =>'Accost',
     'male' =>'Mr',
