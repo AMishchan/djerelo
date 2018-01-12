@@ -7,7 +7,7 @@
                 {{csrf_field()}}
                 <input type="file" id="fileUpload" name="image" style="display:none" multiple/>
                 <input class="btn" type="hidden" name="room_id" value="{{$_GET['id']}}">
-                <input class="btn" type="submit" name="addimage" value="Сохранить">
+                <input class="btn" type="submit" name="addimage" value="Зберегти">
             </form>
         </div>
         @foreach($roomImages as $image)
@@ -19,7 +19,7 @@
                     <div class="col-md-3">
                         {{method_field('DELETE')}}
                         {{csrf_field()}}
-                        <button type="submit" class="btn">delete</button>
+                        <button type="submit" class="btn">Видалити</button>
                     </div>
                 </div>
             </form>

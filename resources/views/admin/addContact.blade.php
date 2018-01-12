@@ -10,13 +10,12 @@
             <input type="text" name="phone">
             <p>E-Mail</p>
             <input align="center" type="email" name='email'>
-            <p>Адрес на Украинском языке</p>
+            <p>Адреса українською</p>
             <input align="center" type="text" name='address_ua'>
-            <p>Адрес на Русском языке</p>
-            <input align="center" type="text" name='address_ru'>
-            <p>Адрес на Английском языке</p>
+
+            <p>Адреса англійською</p>
             <input align="center" type="text" name='address_en'>
-            <input class="btn" type="submit" name="save" value="Сохранить">
+            <input class="btn" type="submit" name="save" value="Зберегти">
         </form>
 
     </div>

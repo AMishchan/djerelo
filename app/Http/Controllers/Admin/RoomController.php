@@ -104,7 +104,7 @@ class RoomController extends Controller
 
         RoomImages::create($data);
 
-        return redirect()->route('rooms');
+        return redirect()->back();
 
     }
 

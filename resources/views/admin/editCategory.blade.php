@@ -6,19 +6,18 @@
     <form align="center" method="post" enctype="multipart/form-data" id="editcategory">
         {{csrf_field()}}
         @foreach($categoryData as $category)
-            <p>Название на Украинском языке</p>
+            <p>Назва українською</p>
             <input type="text" value="{{$category['name_ua']}}" name="name_ua">
-            <p>Название на русском языке</p>
-            <input align="center" type="text" name='name_ru' value="{{$category['name_ru']}}">
-            <p>Название на Английском языке</p>
+
+            <p>Назва англійською</p>
             <input align="center" type="text" name='name_en' value="{{$category['name_en']}}">
-            <p>Изображение</p>
+            <p>Зображення</p>
             <img src="../img/rooms-img/{{$category['img']}}">
-            <p>Для изменения фото, выберите новое изображение</p>
+            <p>Щоб змінити фото, виберіть нове зображення</p>
             <input type="file" name="img" size="10" multiple>
 
 
-            <input class="btn" type="submit" value="Сохранить">
+            <input class="btn" type="submit" value="Зберегти">
         @endforeach
     </form>
     </div>

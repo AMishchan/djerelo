@@ -18,12 +18,13 @@ return [
     |
     */
 
-    'contacts' =>'Contacts',
+    'contact' =>'CONTACTS',
+    'hotel' => 'HOTEL',
     'name' =>'Djerelo',
     'address' =>'Address:',
     'callingUs' =>'Calling us',
     'accost' =>'Accost',
-    'male' =>'Mr.',
+    'male' =>'Mr',
     'female' =>'Miss',
     'abrr' =>'Name',
     'telephone' =>'Telephone',

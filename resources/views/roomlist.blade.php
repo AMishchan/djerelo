@@ -16,7 +16,7 @@
 
             <div class="row room-categories">
                 <div class="col-sm-6">
-                    <img class="img-responsive" src="uploads/{{$room['main_img']}}" alt="l">
+                    <img class="img-responsive" src="uploads/{{$room['main_img']}}" alt="фото">
                 </div>
                 <div class="col-sm-6">
                     <div class="row">

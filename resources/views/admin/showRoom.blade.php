@@ -2,16 +2,16 @@
 
 @section('content')
     <div class="container show-room">
-        <h3 class="mid-h">Отображение комнат</h3>
+        <h3 class="mid-h">Відображення кімнати</h3>
 
-        <a class="btn show-room-btn" href="{{route('admin/rooms/add')}}">Добавить комнату </a>
+        <a class="btn show-room-btn" href="{{route('admin/rooms/add')}}">Додати кімнату</a>
 
         <table border="1" id="roomstable">
             <tr>
-                <td>Изображение</td>
-                <td>№ комнаты</td>
-                <td>Категория</td>
-                <td>Действия</td>
+                <td>Зображення</td>
+                <td>№ кімнати</td>
+                <td>Категорія</td>
+                <td>Дії</td>
             </tr>
             @foreach($rooms as $room)
                 <tr>
@@ -19,11 +19,11 @@
                         <img src="../uploads/{{$room['main_img']}}">
                     </td>
                     <td>{{$room['room_number']}}</td>
-                    <td>{{$room['name_ru']}}</td>
+                    <td>{{$room['name_ua']}}</td>
                     <td>
-                        <a class="btn show-room-btn" href="{{route('edit', ['id'=>$room['ID']])}}">Редактировать</a>
+                        <a class="btn show-room-btn" href="{{route('edit', ['id'=>$room['ID']])}}">Редагувати</a>
                         <br>
-                        <a class="btn show-room-btn" href="{{route('admin/rooms/images', ['id'=>$room['ID']])}}">Изображения комнаты</a>
+                        <a class="btn show-room-btn" href="{{route('admin/rooms/images', ['id'=>$room['ID']])}}">Зображення кімнати</a>
 
 
                         <form action="{{route('deleteRoom', ['room'=>$room['ID']])}}" method="post">

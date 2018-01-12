@@ -4,16 +4,15 @@
     <div class="container add-category-container">
         <form align="center" method="post" action="{{route('admin/formcategory')}}" enctype="multipart/form-data" id="addroom">
             {{csrf_field()}}
-            <p>Название на Украинском языке</p>
+            <p>Назва українською</p>
             <input type="text" name="name_ua">
-            <p>Название на Русском языке</p>
-            <input align="center" type="text" name='name_ru'>
-            <p>Название на Английском языке</p>
+
+            <p>Назва англійською</p>
             <input align="center" type="text" name='name_en'>
-            <p>Изображение</p>
+            <p>Зображення</p>
             <input align="center" type="file" name="img" multiple>
 
-            <input class="btn" type="submit" name="save" value="Сохранить">
+            <input class="btn" type="submit" name="save" value="Зберегти">
         </form>
     </div>
 @endsection

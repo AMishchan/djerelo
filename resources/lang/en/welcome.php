@@ -52,7 +52,7 @@ return [
              with the possibility of concluding cooperation agreements.',
     'bigRoom'=>'The hall for holding the meetings, seminars, meetings, trainings up to 30 osib
              (projector, ekran, komunikatії for office equipment)',
-    'num15'=>' 15 затишних , по-сучасному  облаштованих  номерів різного рівня comfortable, modernly designed numbers of different levels',
+    'num15'=>' 15 comfortable, modernly designed numbers of different levels',
     'ser1'=>'High-quality service:',
     'ser2'=>' - cafe',
     'ser3'=>'- sayna',

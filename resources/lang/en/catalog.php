@@ -27,7 +27,7 @@ return [
     'send'=>'Send',
     'room'=>'Room',
     'numCard'=>'CARD OF THE NUMBER',
-    'roomNum'=>'Room number:',
+    'roomNum'=>'Room number :',
     'descRoom'=>'Room description:',
     'reserve'=>'Reserve',
     
