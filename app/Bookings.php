@@ -9,6 +9,7 @@ class Bookings extends Model
     protected $fillable = [
         'arrival',
         'departure',
+        'order_date',
         'adults',
         'rooms_quantity',
         'kids',

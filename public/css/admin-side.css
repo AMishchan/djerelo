@@ -4,7 +4,7 @@
 }
 .admin-navbar{
     width: fit-content;
-    margin-left: 27%;
+    margin-left: 18%;
     border: 2px solid #d2d1d1;
     margin-bottom: -1px;
     border-radius: 2px;
@@ -29,7 +29,9 @@ input[name=main_img] {
     width: fit-content;
 
 }
-
+.unchecked{
+  background-color: #44bf2e !important;
+}
 input[type=submit] {
     margin-bottom: 3em;
 }
@@ -334,6 +336,7 @@ select::-moz-focus-inner {
     text-align: center;
     text-align: -moz-center;
     text-align: -webkit-center;
+        width: 100%;
 }
 
 .show-category-admin p {

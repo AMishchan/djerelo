@@ -10,7 +10,7 @@
             <div class="owl-carousel top-slider">
 @foreach($images as $image)
                 <div class="item">
-                    <img src="uploads/main-slider/{{$image['image']}}" alt="hotelmain1">
+                    <img src="public/uploads/main-slider/{{$image['image']}}" alt="hotelmain1">
                 </div>
 @endforeach
             </div>
@@ -47,19 +47,19 @@
         </div>
 
         <div class="col-sm-3">
-            <img class="img-responsive" src="img/conversation.png" alt="conversation">
+            <img class="img-responsive" src="public/img/conversation.png" alt="conversation">
             <p>
                 @lang('welcome.bigRoom')
             </p>
         </div>
         <div class="col-sm-3">
-            <img class="img-responsive" src="img/serve.png" alt="serve">
+            <img class="img-responsive" src="public/img/serve.png" alt="serve">
             <p>
                 @lang('welcome.num15')
             </p>
         </div>
         <div class="col-sm-3">
-            <img class="img-responsive" src="img/rest.png" alt="rest">
+            <img class="img-responsive" src="public/img/rest.png" alt="rest">
             <p>
                 @lang('welcome.ser1') <br>
                 @lang('welcome.ser2')<br>
@@ -68,7 +68,7 @@
             </p>
         </div>
         <div class="col-sm-3">
-            <img class="img-responsive" src="img/parking.png" alt="parking">
+            <img class="img-responsive" src="public/img/parking.png" alt="parking">
             <p>
                 @lang('welcome.parking')
             </p>

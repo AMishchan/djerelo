@@ -12,6 +12,7 @@ class RoomController extends Controller
     public function index(Request $request)
     {
         $id = $request->get('id');
+
         $data['rooms'] = Room::where('rooms.category_id', $id)
             ->where('status', 1)
             ->get()
@@ -20,7 +21,7 @@ class RoomController extends Controller
         $data['categories'] = Categories::where('id', $id)
             ->get()
             ->toArray();
-        // dd($data);
+       //  dd($data);
         return view('roomlist', $data);
         // return redirect()->back()->with('alert', 'Deleted!');
 

@@ -10,7 +10,6 @@
 
                 <p class="cat-top-img-desc"><span>{{$category['name_ua']}}</span></p>
         </div>
-
         @endforeach
         @foreach($rooms as $room)
 
