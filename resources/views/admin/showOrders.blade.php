@@ -31,7 +31,9 @@
     <td>{{$order['phone']}}</td>
     <td>{{$order['room_id']}}</td>
     <td>{{$order['room_number']}}</td>
-    <td><button type="button" class="btn btn-default {{$order['button_class']}}" onclick="location.href='checkorders?id={{$order['id']}}'">{{$order['button_text']}}</button></td>
+    <td><button type="button" class="btn order-btn btn-default {{$order['button_class']}}" onclick="location.href='checkorders?id={{$order['id']}}'">{{$order['button_text']}}</button><br>
+        <button type="button" class="btn order-btn btn-danger btn-default " onclick="location.href='delorder?id={{$order['id']}}'">Видалити</button>
+    </td>
 
  </tr>
 

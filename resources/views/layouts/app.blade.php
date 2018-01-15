@@ -11,11 +11,11 @@
     <title>{{ config('app.name', 'Laravel') }}</title>
 
     <!-- Styles -->
-    <link href="{{ asset('public/css/app.css') }}" rel="stylesheet">
-    <link href="{{ asset('public/css/admin-side.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/admin-side.css') }}" rel="stylesheet">
 
-    <script src="{{asset('public/libs/jquery/jquery-2.1.1.min.js') }}"></script>
-    <script src="{{asset('public/libs/owlcarousel/assets/vendors/jquery.min.js') }}"></script>
+    <script src="{{asset('libs/jquery/jquery-2.1.1.min.js') }}"></script>
+    <script src="{{asset('libs/owlcarousel/assets/vendors/jquery.min.js') }}"></script>
 </head>
 <body>
 <div id="app">
@@ -87,6 +87,6 @@
 </div>
 
 <!-- Scripts -->
-<script src="{{ asset('public/js/app.js') }}"></script>
+<script src="{{ asset('js/app.js') }}"></script>
 </body>
 </html>
